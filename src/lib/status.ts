@@ -71,7 +71,7 @@ export function describeCondition(
     return {
       tone: "avoid" as Tone,
       label: "Open advisory in source",
-      human: "The packaged source record lists an advisory as open. Verify locally and avoid water contact until confirmed.",
+      human: "The source record lists an advisory as open. Verify locally and avoid water contact until confirmed.",
       dog: "The source lists an open advisory. Keep dogs out and verify with the local water-body manager.",
     };
   }

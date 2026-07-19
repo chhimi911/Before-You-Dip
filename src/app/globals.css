@@ -41,11 +41,7 @@ button { color: inherit; }
   z-index: 10;
 }
 .wordmark { display: inline-flex; align-items: center; gap: 12px; font-family: var(--serif); font-size: 23px; font-weight: 700; }
-.ripple-mark { width: 36px; height: 28px; display: grid; place-items: center; position: relative; }
-.ripple-mark i { position: absolute; border: 1.5px solid currentColor; border-radius: 50%; transform: rotate(-5deg); }
-.ripple-mark i:nth-child(1) { width: 33px; height: 12px; }
-.ripple-mark i:nth-child(2) { width: 23px; height: 8px; }
-.ripple-mark i:nth-child(3) { width: 7px; height: 3px; background: currentColor; }
+.brand-mark { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: 0 0 auto; }
 .site-header nav { display: flex; gap: 32px; font-size: 13px; font-weight: 700; }
 .site-header nav a { padding: 10px 0; }
 .site-header nav a:hover { color: var(--teal); }
@@ -60,6 +56,9 @@ button { color: inherit; }
 .hero h1 { margin: 0; font: 600 clamp(52px, 6.2vw, 90px)/.93 var(--serif); letter-spacing: -.045em; text-wrap: balance; }
 .hero-lede { margin: 24px 0 34px; max-width: 600px; font-size: 18px; line-height: 1.6; color: rgba(255,255,255,.86); }
 .search-box { background: var(--paper); border-radius: 7px; padding: 10px; color: var(--ink); box-shadow: 0 20px 50px rgba(0,0,0,.22); max-width: 670px; }
+.search-modes { display: flex; gap: 5px; padding: 0 5px 9px; }
+.search-modes button { border: 1px solid var(--line); border-radius: 30px; background: transparent; padding: 7px 12px; color: var(--ink-soft); font-size: 10px; font-weight: 800; cursor: pointer; }
+.search-modes button.active { border-color: var(--teal); background: var(--teal); color: white; }
 .search-box label { display: block; padding: 2px 8px 8px; font-size: 10px; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-soft); font-weight: 800; }
 .search-control { display: grid; grid-template-columns: 35px 1fr auto; align-items: center; }
 .search-control > span { font-size: 27px; text-align: center; transform: rotate(-20deg); color: var(--teal); }
@@ -67,6 +66,7 @@ button { color: inherit; }
 .search-control button, .empty-state button { border: 0; border-radius: 4px; background: var(--coral); color: white; padding: 16px 20px; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; font-weight: 800; cursor: pointer; }
 .search-control button:hover, .empty-state button:hover { background: #c9604c; }
 .search-control button:disabled { opacity: .7; cursor: wait; }
+.geocode-note { margin: 8px 8px 2px; color: var(--ink-soft); font-size: 9px; line-height: 1.45; }
 .hero-actions { margin-top: 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 15px 24px; }
 .locate-button { background: transparent; border: 0; padding: 7px 0; color: white; cursor: pointer; font-size: 13px; font-weight: 700; }
 .locate-button span { color: var(--sun); font-size: 17px; margin-right: 5px; }
@@ -88,6 +88,7 @@ button { color: inherit; }
 .section-heading h2, .source-section h2 { margin: 0; font: 600 clamp(39px, 4.6vw, 63px)/1 var(--serif); letter-spacing: -.035em; }
 .result-meta { display: grid; justify-items: end; gap: 6px; font-size: 11px; color: var(--ink-soft); }
 .result-meta span:first-child { color: var(--teal); font-weight: 800; }
+.fallback-notice { margin: -18px 0 28px; padding: 12px 15px; border-left: 4px solid #bd7527; background: #fff1d7; color: #6b4b24; font-size: 11px; line-height: 1.5; }
 .explore-layout { display: block; }
 .card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .condition-card { min-height: 255px; position: relative; border: 1px solid var(--line); border-top: 4px solid var(--status, var(--ink-soft)); background: white; padding: 22px 22px 18px; display: flex; flex-direction: column; box-shadow: 0 4px 20px rgba(12,58,60,.05); transition: transform .2s ease, box-shadow .2s ease; }
@@ -183,6 +184,7 @@ footer > a { font-size: 11px; font-weight: 800; }
   .site-header { height: 66px; padding: 0 18px; }
   .site-header nav { display: none; }
   .wordmark { font-size: 20px; }
+  .brand-mark { width: 40px; height: 40px; }
   .hero { min-height: 720px; align-items: flex-end; }
   .hero > img { object-position: 62% center; }
   .hero-shade { background: linear-gradient(0deg, rgba(5,37,39,.96) 0%, rgba(5,37,39,.82) 54%, rgba(5,37,39,.15) 100%); }

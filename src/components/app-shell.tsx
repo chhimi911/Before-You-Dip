@@ -5,6 +5,7 @@ import { FormEvent, useEffect, useMemo, useState } from "react";
 import type { Condition, ConditionsResponse } from "@/lib/conditions";
 
 type Audience = "people" | "dogs";
+type SearchMode = "water" | "place";
 type SourceState = {
   status: "live" | "snapshot";
   checkedAt: string;
@@ -154,6 +155,7 @@ function EvidencePanel({
 
 export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
   const [audience, setAudience] = useState<Audience>("people");
+  const [searchMode, setSearchMode] = useState<SearchMode>("water");
   const [data, setData] = useState(initialData);
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
@@ -174,11 +176,16 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
 
   const visible = useMemo(() => data.conditions, [data]);
 
-  async function search(nextQuery: string, coordinates?: { latitude: number; longitude: number }) {
+  async function search(
+    nextQuery: string,
+    coordinates?: { latitude: number; longitude: number },
+    label = nextQuery,
+  ) {
     setLoading(true);
     setMessage("");
     const params = new URLSearchParams({ limit: "48" });
     if (nextQuery) params.set("query", nextQuery);
+    if (label) params.set("label", label);
     if (coordinates) {
       params.set("lat", String(coordinates.latitude));
       params.set("lon", String(coordinates.longitude));
@@ -188,7 +195,7 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
       if (!response.ok) throw new Error("Search request failed");
       const nextData = await response.json() as ConditionsResponse;
       setData(nextData);
-      setMessage(nextData.count ? `${nextData.count.toLocaleString()} matching evidence locations` : "No matching evidence locations found");
+      setMessage(nextData.count ? `${nextData.count.toLocaleString()} evidence locations considered` : "No matching evidence locations found");
       document.getElementById("results")?.scrollIntoView({ behavior: "smooth", block: "start" });
     } catch {
       setMessage("The search could not be refreshed. The starting snapshot is still available below.");
@@ -197,9 +204,30 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
     }
   }
 
-  function submit(event: FormEvent) {
+  async function submit(event: FormEvent) {
     event.preventDefault();
-    void search(query);
+    if (searchMode === "water") {
+      await search(query);
+      return;
+    }
+
+    setLoading(true);
+    setMessage("Finding that California location…");
+    try {
+      const response = await fetch(`/api/geocode?query=${encodeURIComponent(query)}`);
+      const result = await response.json() as { latitude?: number; longitude?: number; label?: string; message?: string };
+      if (!response.ok || !Number.isFinite(result.latitude) || !Number.isFinite(result.longitude)) {
+        throw new Error(result.message || "No California location matched that search.");
+      }
+      await search(
+        "",
+        { latitude: result.latitude as number, longitude: result.longitude as number },
+        result.label || query,
+      );
+    } catch (error) {
+      setLoading(false);
+      setMessage(error instanceof Error ? error.message : "The location could not be found.");
+    }
   }
 
   function locate() {
@@ -210,8 +238,8 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
     setLoading(true);
     setMessage("Asking your browser for an approximate location…");
     navigator.geolocation.getCurrentPosition(
-      (position) => void search("", { latitude: position.coords.latitude, longitude: position.coords.longitude }),
-      () => { setLoading(false); setMessage("Location was not shared. You can still search by lake, river, park, or station name."); },
+      (position) => void search("", { latitude: position.coords.latitude, longitude: position.coords.longitude }, "Your approximate location"),
+      () => { setLoading(false); setMessage("Location was not shared. You can still search by water name, ZIP code, or address."); },
       { enableHighAccuracy: false, timeout: 8000 },
     );
   }
@@ -232,7 +260,7 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
     <main>
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label="Before You Dip home">
-          <span className="ripple-mark" aria-hidden="true"><i /><i /><i /></span>
+          <Image className="brand-mark" src="/assets/before-you-dip-mark.png" alt="" width={44} height={44} priority />
           <span>Before You Dip</span>
         </a>
         <nav aria-label="Primary navigation">
@@ -251,17 +279,22 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
           <h1>Know what the water knows<br />before you dip.</h1>
           <p className="hero-lede">Recent bacteria results and harmful-algae reports, brought together for people and their dogs.</p>
           <form className="search-box" onSubmit={submit}>
-            <label htmlFor="water-search">Search a lake, river, park, or monitoring station</label>
+            <div className="search-modes" aria-label="Choose search type">
+              <button type="button" className={searchMode === "water" ? "active" : ""} onClick={() => setSearchMode("water")}>Water name</button>
+              <button type="button" className={searchMode === "place" ? "active" : ""} onClick={() => setSearchMode("place")}>ZIP or address</button>
+            </div>
+            <label htmlFor="water-search">{searchMode === "water" ? "Lake, river, park, or monitoring station" : "California ZIP code or address"}</label>
             <div className="search-control">
               <span aria-hidden="true">⌕</span>
-              <input id="water-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try “Clear Lake”" />
-              <button type="submit" disabled={loading}>{loading ? "Checking…" : "Check the water"}</button>
+              <input id="water-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={searchMode === "water" ? "Try “Clear Lake”" : "Try “94110” or a street address"} required />
+              <button type="submit" disabled={loading}>{loading ? "Checking…" : searchMode === "water" ? "Check the water" : "Find nearby water"}</button>
             </div>
+            {searchMode === "place" && <p className="geocode-note">Submitted locations are used only to find nearby records. Search is provided by OpenStreetMap Nominatim; do not enter confidential information.</p>}
           </form>
           <div className="hero-actions">
             <button className="locate-button" onClick={locate} disabled={loading}><span aria-hidden="true">◎</span> Find monitored spots near me</button>
             <div className="quick-links" aria-label="Popular searches">
-              {quickSearches.map((item) => <button key={item} onClick={() => { setQuery(item); void search(item); }}>{item}</button>)}
+              {quickSearches.map((item) => <button key={item} onClick={() => { setSearchMode("water"); setQuery(item); void search(item); }}>{item}</button>)}
             </div>
           </div>
         </div>
@@ -284,14 +317,15 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Current evidence finder</p>
-            <h2>{data.query ? `Results for “${data.query}”` : "A few places people ask about"}</h2>
+            <h2>{data.query ? `Evidence for “${data.query}”` : "Latest statewide reports"}</h2>
           </div>
           <div className="result-meta">
-            <span>{message || `${data.count.toLocaleString()} evidence locations searchable`}</span>
-            <span>App snapshot built {prettyDateTime(data.generatedAt)}</span>
+            <span>{message || `${data.count.toLocaleString()} current evidence locations`}</span>
+            <span>{data.dataMode === "live" ? `Live DataStore checked ${prettyDateTime(data.checkedAt)}` : `Fallback snapshot built ${prettyDateTime(data.generatedAt)}`}</span>
             <span>Newest source file {prettyDateTime(data.sourceModifiedAt)}</span>
           </div>
         </div>
+        {data.fallbackReason && <p className="fallback-notice"><strong>Live source fallback:</strong> {data.fallbackReason}</p>}
 
         {visible.length ? (
           <div className="explore-layout">
@@ -326,15 +360,15 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
         <div>
           <p className="eyebrow">The public-data ledger</p>
           <h2>See where every signal comes from.</h2>
-          <p className="source-lede">The app discovers current CSV resources through California’s CKAN API, builds a compact station snapshot, and can check the catalog live without requiring an API key.</p>
+          <p className="source-lede">The app discovers the current resources through California’s CKAN API and queries the live DataStore when the page loads and whenever you search. No API key is required.</p>
           <div className="freshness-box">
-            <strong>Not real-time</strong>
-            <span>App snapshot: {prettyDateTime(data.generatedAt)}</span>
-            <span>Newest included source file: {prettyDateTime(data.sourceModifiedAt)}</span>
-            <p>Sampling and agency publication schedules vary. Always use posted signs and local advisories for the final decision.</p>
+            <strong>{data.dataMode === "live" ? "Connected to the live state DataStore" : "Using the verified fallback snapshot"}</strong>
+            <span>Connection checked: {prettyDateTime(data.checkedAt)}</span>
+            <span>Newest state source update: {prettyDateTime(data.sourceModifiedAt)}</span>
+            <p>“Live” means this app checked the newest data currently published by the source. It cannot make sampling or agency publication happen sooner. Always use posted signs and local advisories for the final decision.</p>
           </div>
           <button className="source-check" onClick={() => void checkSources()}>Check source connection <span aria-hidden="true">↗</span></button>
-          {sourceState && <p className={`source-result ${sourceState.status}`}>{sourceState.status === "live" ? `Catalog checked now. Newest catalog update: ${prettyDateTime(sourceState.live?.map((source) => source.modified).sort().at(-1) ?? sourceState.checkedAt)}. This check does not replace the packaged snapshot.` : sourceState.message}</p>}
+          {sourceState && <p className={`source-result ${sourceState.status}`}>{sourceState.status === "live" ? `Catalog checked now. Newest catalog update: ${prettyDateTime(sourceState.live?.map((source) => source.modified).sort().at(-1) ?? sourceState.checkedAt)}.` : sourceState.message}</p>}
         </div>
         <div className="source-cards">
           <a href="https://data.ca.gov/dataset/surface-water-fecal-indicator-bacteria-results" target="_blank" rel="noreferrer"><span>Bacteria</span><strong>Fecal Indicator Bacteria Monitoring Results</strong><small>Station samples · rolling means · quality fields</small></a>
@@ -344,8 +378,8 @@ export function AppShell({ initialData }: { initialData: ConditionsResponse }) {
       </section>
 
       <footer>
-        <div className="wordmark"><span className="ripple-mark" aria-hidden="true"><i /><i /><i /></span><span>Before You Dip</span></div>
-        <p>Built independently with California public data. Not affiliated with, endorsed by, or speaking for any government agency.</p>
+        <div className="wordmark"><Image className="brand-mark" src="/assets/before-you-dip-mark.png" alt="" width={42} height={42} /><span>Before You Dip</span></div>
+        <p>Built independently with California public data. Not affiliated with, endorsed by, or speaking for any government agency. Location search © OpenStreetMap contributors.</p>
         <a href="#top">Back to top ↑</a>
       </footer>
 

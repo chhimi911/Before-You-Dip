@@ -9,14 +9,14 @@ import {
   type Tone,
 } from "./status";
 
-type FibRecord = BacteriaReading & {
+export type FibRecord = BacteriaReading & {
   stationCode: string;
   stationName: string;
   latitude: number;
   longitude: number;
 };
 
-type HabRecord = BloomReading & {
+export type HabRecord = BloomReading & {
   bloomReportId: string;
   waterBody: string;
   landmark: string;
@@ -46,6 +46,9 @@ export type Condition = {
 export type ConditionsResponse = {
   generatedAt: string;
   sourceModifiedAt: string;
+  checkedAt: string;
+  dataMode: "live" | "snapshot";
+  fallbackReason?: string;
   count: number;
   query: string;
   conditions: Condition[];
@@ -68,14 +71,7 @@ export function milesBetween(aLat: number, aLon: number, bLat: number, bLon: num
   return 2 * earthRadiusMiles * Math.asin(Math.sqrt(value));
 }
 
-const stationGroups = new Map<string, FibRecord[]>();
-for (const record of fibRecords) {
-  const records = stationGroups.get(record.stationCode) ?? [];
-  records.push(record);
-  stationGroups.set(record.stationCode, records);
-}
-
-function nearestBloom(latitude: number, longitude: number, stationName: string) {
+function nearestBloom(latitude: number, longitude: number, stationName: string, blooms: HabRecord[]) {
   let best: (HabRecord & { distanceMiles: number }) | null = null;
   const genericWaterWords = new Set(["beach", "lake", "river", "creek", "water", "park", "reservoir", "pond", "shore"]);
   const stationWords = new Set(
@@ -85,7 +81,7 @@ function nearestBloom(latitude: number, longitude: number, stationName: string) 
       .filter((word) => word.length >= 4 && !genericWaterWords.has(word)),
   );
 
-  for (const bloom of habRecords) {
+  for (const bloom of blooms) {
     const distanceMiles = milesBetween(latitude, longitude, bloom.latitude, bloom.longitude);
     if (distanceMiles > 4) continue;
     const bloomText = `${bloom.waterBody} ${bloom.landmark}`.toLowerCase();
@@ -96,9 +92,9 @@ function nearestBloom(latitude: number, longitude: number, stationName: string) 
   return best;
 }
 
-function toCondition(records: FibRecord[], origin?: { latitude: number; longitude: number }): Condition {
+function toCondition(records: FibRecord[], blooms: HabRecord[], origin?: { latitude: number; longitude: number }): Condition {
   const base = [...records].sort((a, b) => b.sampledAt.localeCompare(a.sampledAt))[0];
-  const bloom = nearestBloom(base.latitude, base.longitude, base.stationName);
+  const bloom = nearestBloom(base.latitude, base.longitude, base.stationName, blooms);
   const condition = describeCondition(records, bloom);
   const updatedAt = [base.sampledAt, bloom?.observedAt].filter(Boolean).sort().at(-1) ?? null;
   const stationPrefix = base.stationName.toLowerCase().startsWith(base.stationCode.toLowerCase())
@@ -141,20 +137,48 @@ function bloomToCondition(bloom: HabRecord, origin?: { latitude: number; longitu
   };
 }
 
-export function getConditions(options: {
+type ConditionOptions = {
   query?: string;
+  label?: string;
   latitude?: number;
   longitude?: number;
   limit?: number;
-} = {}): ConditionsResponse {
+};
+
+export function buildConditionsResponse(
+  inputFibRecords: FibRecord[],
+  inputHabRecords: HabRecord[],
+  options: ConditionOptions & {
+    generatedAt: string;
+    sourceModifiedAt: string;
+    checkedAt: string;
+    dataMode: "live" | "snapshot";
+    fallbackReason?: string;
+  },
+): ConditionsResponse {
   const query = options.query?.trim().toLowerCase() ?? "";
   const hasOrigin = Number.isFinite(options.latitude) && Number.isFinite(options.longitude);
   const origin = hasOrigin
     ? { latitude: options.latitude as number, longitude: options.longitude as number }
     : undefined;
+  const stationGroups = new Map<string, FibRecord[]>();
+  for (const record of inputFibRecords) {
+    const records = stationGroups.get(record.stationCode) ?? [];
+    records.push(record);
+    stationGroups.set(record.stationCode, records);
+  }
+
+  const newestBlooms = new Map<string, HabRecord>();
+  for (const bloom of inputHabRecords) {
+    const key = `${bloom.waterBody}|${bloom.landmark}`.toLowerCase().replace(/\s+/g, " ").trim();
+    const existing = newestBlooms.get(key);
+    if (!existing || bloom.observedAt > existing.observedAt) newestBlooms.set(key, bloom);
+  }
+  const blooms = [...newestBlooms.values()];
+
   let conditions = [
-    ...[...stationGroups.values()].map((records) => toCondition(records, origin)),
-    ...habRecords.map((bloom) => bloomToCondition(bloom, origin)),
+    ...[...stationGroups.values()].map((records) => toCondition(records, blooms, origin)),
+    ...blooms.map((bloom) => bloomToCondition(bloom, origin)),
   ];
 
   if (query) {
@@ -187,15 +211,28 @@ export function getConditions(options: {
 
   const limit = Math.min(Math.max(options.limit ?? 36, 1), 100);
   return {
+    generatedAt: options.generatedAt,
+    sourceModifiedAt: options.sourceModifiedAt,
+    checkedAt: options.checkedAt,
+    dataMode: options.dataMode,
+    ...(options.fallbackReason ? { fallbackReason: options.fallbackReason } : {}),
+    count: conditions.length,
+    query: options.label?.trim() || query,
+    conditions: conditions.slice(0, limit),
+  };
+}
+
+export function getConditions(options: ConditionOptions = {}): ConditionsResponse {
+  return buildConditionsResponse(fibRecords, habRecords, {
+    ...options,
     generatedAt: fibSnapshot.generatedAt,
     sourceModifiedAt: [
       sourceMetadata.packages.fib.resource.last_modified,
       sourceMetadata.packages.hab.resource.last_modified,
     ].sort().at(-1) ?? sourceMetadata.generatedAt,
-    count: conditions.length,
-    query,
-    conditions: conditions.slice(0, limit),
-  };
+    checkedAt: new Date().toISOString(),
+    dataMode: "snapshot",
+  });
 }
 
 export function getSourceSnapshot() {

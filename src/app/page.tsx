@@ -1,7 +1,8 @@
 import { AppShell } from "@/components/app-shell";
-import { getConditions } from "@/lib/conditions";
+import { getLiveConditions } from "@/lib/live-conditions";
 
-export default function Home() {
-  return <AppShell initialData={getConditions()} />;
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  return <AppShell initialData={await getLiveConditions()} />;
 }
-

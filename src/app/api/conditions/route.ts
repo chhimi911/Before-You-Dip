@@ -1,4 +1,4 @@
-import { getConditions } from "@/lib/conditions";
+import { getLiveConditions } from "@/lib/live-conditions";
 
 export const dynamic = "force-dynamic";
 
@@ -11,13 +11,13 @@ export async function GET(request: Request) {
   const longitude = longitudeValue === null ? undefined : Number(longitudeValue);
   const limit = limitValue === null ? undefined : Number(limitValue);
 
-  return Response.json(
-    getConditions({
+  const conditions = await getLiveConditions({
       query: parameters.get("query") ?? "",
+      label: parameters.get("label") ?? "",
       latitude: Number.isFinite(latitude) ? latitude : undefined,
       longitude: Number.isFinite(longitude) ? longitude : undefined,
       limit: Number.isFinite(limit) ? limit : undefined,
-    }),
-    { headers: { "Cache-Control": "public, max-age=300, stale-while-revalidate=3600" } },
-  );
+    });
+
+  return Response.json(conditions, { headers: { "Cache-Control": "no-store" } });
 }
