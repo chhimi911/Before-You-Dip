@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-07-19T20:55:55.296Z",
+  "packages": {
+    "fib": {
+      "id": "surface-water-fecal-indicator-bacteria-results",
+      "modified": "2026-07-17T16:35:31.509088",
+      "resource": {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "ckan_url": "https://data.ca.gov",
+        "created": "2025-02-25T02:11:36.140177",
+        "datastore_active": true,
+        "datastore_contains_all_records_of_source_file": true,
+        "description": "",
+        "format": "CSV",
+        "hash": "7c088f806385e69e9b49ef00ad00ae4f",
+        "id": "15a63495-8d9f-4a49-b43a-3092ef3106b9",
+        "ignore_hash": false,
+        "is_data_dict_populated": true,
+        "last_modified": "2026-07-17T16:38:18.796148",
+        "metadata_modified": "2026-07-17T16:35:31.517974",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Fecal Indicator Bacteria Monitoring Results - 2020 to present",
+        "original_url": "https://data.ca.gov/dataset/6723ab78-4530-4e97-ba5e-6ffd17a4c139/resource/15a63495-8d9f-4a49-b43a-3092ef3106b9/download/safetoswim_geomeans_2020-present.csv",
+        "package_id": "6723ab78-4530-4e97-ba5e-6ffd17a4c139",
+        "position": 0,
+        "resource_id": "15a63495-8d9f-4a49-b43a-3092ef3106b9",
+        "resource_type": null,
+        "set_url_type": false,
+        "size": 373570841,
+        "state": "active",
+        "task_created": "2026-07-17 16:38:18.820005",
+        "url": "https://data.ca.gov/dataset/6723ab78-4530-4e97-ba5e-6ffd17a4c139/resource/15a63495-8d9f-4a49-b43a-3092ef3106b9/download/safetoswim_geomeans_2020-present.csv",
+        "url_type": "upload"
+      }
+    },
+    "hab": {
+      "id": "surface-water-freshwater-harmful-algal-blooms",
+      "modified": "2026-07-18T00:05:49.820927",
+      "resource": {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "ckan_url": "https://data.ca.gov",
+        "created": "2024-02-14T18:21:55.475645",
+        "datastore_active": true,
+        "datastore_contains_all_records_of_source_file": true,
+        "description": "Includes information from individual reports submitted to the agency. Reports include suspected harmful algal blooms and are reviewed by technical staff to determine if an algal bloom is present. The report includes information describing the location, any observations of the area include water surface characteristics, photos, and any known responsible organizations in the area. Technical staff can add additional waterbody information. ",
+        "format": "CSV",
+        "hash": "c2a4193568ddd2f00d4c75fb575a34af",
+        "id": "c6a36b91-ad38-4611-8750-87ee99e497dd",
+        "ignore_hash": false,
+        "is_data_dict_populated": true,
+        "last_modified": "2026-07-18T00:03:33.433518",
+        "metadata_modified": "2026-07-18T00:05:39.083899",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "FHABS BLOOM REPORTS",
+        "original_url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-17.csv",
+        "package_id": "ab672540-aecd-42f1-9b05-9aad326f97ec",
+        "position": 2,
+        "resource_id": "c6a36b91-ad38-4611-8750-87ee99e497dd",
+        "resource_type": null,
+        "set_url_type": false,
+        "size": 2338577,
+        "state": "active",
+        "task_created": "2026-07-18 00:04:01.139651",
+        "url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-17.csv",
+        "url_type": "upload"
+      }
+    }
+  }
+}

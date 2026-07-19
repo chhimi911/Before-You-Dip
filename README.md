@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Before You Dip
 
-## Getting Started
+Before You Dip is an independent California public-data project. It brings fecal-indicator bacteria monitoring results and freshwater harmful-algae reports into one evidence-first interface for people and dog owners.
 
-First, run the development server:
+It is not affiliated with, endorsed by, or speaking for the State of California or any public agency. It does not certify water as safe. Local signs, advisories, health departments, and park authorities remain authoritative.
+
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Refresh the public-data snapshot
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run fetch:data
+```
 
-## Learn More
+The refresh script calls the California Open Data CKAN API to discover the current CSV resources. It compares the official resource hashes first and skips the large download when neither source changed. When a source changes, it streams the bacteria dataset, keeps the latest E. coli and Enterococcus evidence per station, validates dates and California coordinates, and atomically replaces the compact JSON snapshots in `src/data/`.
 
-To learn more about Next.js, take a look at the following resources:
+No API key or environment file is required.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The checked-in GitHub Actions workflow runs this refresh once per day at 14:17 UTC and can also be started manually. It validates the new snapshot, runs the full application checks, and publishes a data-only commit only when the source files changed. A connected hosting service can redeploy from that commit. Until this project is pushed to GitHub and Actions is enabled, refreshes remain manual.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The app is not real-time. It shows both the time the packaged snapshot was created and the newest source-file modification included in that snapshot. The live catalog button checks data.ca.gov metadata; it does not silently replace the packaged results.
 
-## Deploy on Vercel
+## Verification
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm test
+npm run verify:data
+npm run lint
+npm run typecheck
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Data and method
+
+- [Fecal Indicator Bacteria Monitoring Results](https://data.ca.gov/dataset/surface-water-fecal-indicator-bacteria-results)
+- [Freshwater Harmful Algal Bloom Reports](https://data.ca.gov/dataset/surface-water-freshwater-harmful-algal-blooms)
+- [California Statewide Bacteria Objectives](https://www.waterboards.ca.gov/bacterialobjectives/)
+
+The interface uses plain-language evidence states: advisory posted, bloom under review, recent result above objective, recent result below objective, and no recent evidence. Older results become unknown; missing data never becomes a green light.
+
+## Visual assets
+
+All custom artwork was generated as raster PNG files with OpenAI ImageGen and is stored in `public/assets/`. The project contains no SVG files and uses no SVG icon library.
