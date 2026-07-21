@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T16:02:59.199Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-17.csv",
+  "generatedAt": "2026-07-21T15:54:31.272Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-20.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -33345,7 +33345,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4134",
@@ -33761,7 +33761,7 @@
       "longitude": -122.66708,
       "observedAt": "2023-06-20T00:00:00.000Z",
       "advisory": "Caution",
-      "advisoryStart": "2026-01-21T00:00:00.000Z",
+      "advisoryStart": "2026-07-20T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -47431,7 +47431,52 @@
       "caseStatus": "Ongoing",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5214",
+      "waterBody": "Eagle Lake",
+      "landmark": "Susanville, CA",
+      "county": "Lassen",
+      "latitude": 40.65277,
+      "longitude": -120.70991,
+      "observedAt": "2026-07-16T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5215",
+      "waterBody": "Hume Lake",
+      "landmark": "In the Hume Lake Ranger District on Sequoia National Forest",
+      "county": "Fresno",
+      "latitude": 36.79143,
+      "longitude": -118.90486,
+      "observedAt": "2026-07-17T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5216",
+      "waterBody": "Anthony’s fish grotto",
+      "landmark": "",
+      "county": "San Diego",
+      "latitude": 32.78071,
+      "longitude": -116.9923,
+      "observedAt": "2026-07-07T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3569
+  "examined": 3572
 }
