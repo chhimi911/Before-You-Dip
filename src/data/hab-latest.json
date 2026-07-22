@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T15:54:31.272Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-20.csv",
+  "generatedAt": "2026-07-22T15:53:31.809Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-21.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -32711,7 +32711,7 @@
       "longitude": -124.11614,
       "observedAt": "2023-03-15T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-06-05T00:00:00.000Z",
+      "advisoryStart": "2026-07-21T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -47028,6 +47028,21 @@
       "detail": ""
     },
     {
+      "bloomReportId": "5182",
+      "waterBody": "Laguna Creek",
+      "landmark": "305LGCACR",
+      "county": "Monterey",
+      "latitude": 36.34867,
+      "longitude": -120.82087,
+      "observedAt": "2026-07-23T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-03T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Ongoing",
+      "caseEnd": null,
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+    },
+    {
       "bloomReportId": "5183",
       "waterBody": "San Antonio River",
       "landmark": "~0.5mi above Bear Cyn. Cr. (309PS0116)",
@@ -47410,12 +47425,12 @@
       "latitude": 36.79117,
       "longitude": -118.90557,
       "observedAt": "2026-07-16T00:00:00.000Z",
-      "advisory": "NA - refer to Report Details",
+      "advisory": "Caution",
       "advisoryStart": "2026-07-17T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "This report is under investigation."
+      "detail": "A suspected harmful algal bloom was reported, an investigation is underway and this report will be updated once info is provided by the responding organizations."
     },
     {
       "bloomReportId": "5213",
