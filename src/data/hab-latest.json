@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T15:53:31.809Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-21.csv",
+  "generatedAt": "2026-07-23T16:03:40.006Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-22.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -35670,7 +35670,7 @@
       "advisoryEnd": null,
       "caseStatus": "Closed",
       "caseEnd": "2023-12-21T00:00:00.000Z",
-      "detail": "Water Boards recommends posting “general awareness sign” for HABs at this site and nearby access points."
+      "detail": "Water Boards recommends posting “general awareness sign�� for HABs at this site and nearby access points."
     },
     {
       "bloomReportId": "4348",
@@ -47458,7 +47458,7 @@
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Open",
       "caseEnd": null,
       "detail": ""
     },
@@ -47480,11 +47480,41 @@
     {
       "bloomReportId": "5216",
       "waterBody": "Anthony’s fish grotto",
-      "landmark": "",
+      "landmark": "Anthony's Fish Grotto restaurant",
       "county": "San Diego",
       "latitude": 32.78071,
       "longitude": -116.9923,
       "observedAt": "2026-07-07T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-21T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "This report is under investigation."
+    },
+    {
+      "bloomReportId": "5217",
+      "waterBody": "Shasta Lake",
+      "landmark": "Pit Arm",
+      "county": "Shasta",
+      "latitude": 40.77333,
+      "longitude": -122.10613,
+      "observedAt": "2026-07-07T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-22T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5218",
+      "waterBody": "Trout Creek",
+      "landmark": "Lake Tahoe Community College",
+      "county": "El Dorado",
+      "latitude": 38.925472,
+      "longitude": -119.97433,
+      "observedAt": "2026-07-22T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -47493,5 +47523,5 @@
       "detail": ""
     }
   ],
-  "examined": 3572
+  "examined": 3575
 }
