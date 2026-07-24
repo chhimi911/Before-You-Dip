@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T16:03:40.006Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-22.csv",
+  "generatedAt": "2026-07-24T15:46:02.707Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-23.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -47521,7 +47521,82 @@
       "caseStatus": "",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5220",
+      "waterBody": "Discovery Bay Marina",
+      "landmark": "Bar and Grill",
+      "county": "Contra Costa",
+      "latitude": 37.903,
+      "longitude": -121.58794,
+      "observedAt": "2026-07-15T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5221",
+      "waterBody": "Tyler Creek",
+      "landmark": "above Parker Pass Rd (555TYLRCK)",
+      "county": "Tulare",
+      "latitude": 35.90253,
+      "longitude": -118.64978,
+      "observedAt": "2026-07-14T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-23T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5222",
+      "waterBody": "White River",
+      "landmark": "at White River Campground (555WHTCMP)",
+      "county": "Tulare",
+      "latitude": 35.84533,
+      "longitude": -118.63551,
+      "observedAt": "2026-07-14T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-07-23T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Alert! High concentration of one or more cyanotoxins measured at this site indicating elevated health risk to humans and animals."
+    },
+    {
+      "bloomReportId": "5223",
+      "waterBody": "Cedar Creek",
+      "landmark": "~0.7mi above Hwy 155 (555CDC287)",
+      "county": "Kern",
+      "latitude": 35.75599,
+      "longitude": -118.57753,
+      "observedAt": "2026-07-15T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-23T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5224",
+      "waterBody": "Jamison Creek",
+      "landmark": "~1.9mi below Little Jamison Cr. (518JSC273)",
+      "county": "Plumas",
+      "latitude": 39.76837,
+      "longitude": -120.6847,
+      "observedAt": "2026-07-13T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3575
+  "examined": 3580
 }
