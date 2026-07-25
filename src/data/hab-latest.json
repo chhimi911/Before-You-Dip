@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T15:46:02.707Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-23.csv",
+  "generatedAt": "2026-07-25T15:29:53.208Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-24.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -370,7 +370,7 @@
       "latitude": 37.846563,
       "longitude": -122.23053,
       "observedAt": "2023-01-01T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "None",
       "advisoryStart": "2023-01-01T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -12810,7 +12810,7 @@
       "advisoryEnd": null,
       "caseStatus": "Closed",
       "caseEnd": "2020-12-31T00:00:00.000Z",
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution��� advisory level."
     },
     {
       "bloomReportId": "2425",
@@ -23665,7 +23665,7 @@
       "latitude": 37.726948,
       "longitude": -122.11221,
       "observedAt": "2023-01-01T00:00:00.000Z",
-      "advisory": "Danger",
+      "advisory": "Caution",
       "advisoryStart": "2023-01-01T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -31975,12 +31975,12 @@
       "latitude": 37.881335,
       "longitude": -121.46742,
       "observedAt": "2023-01-05T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Visual observation",
       "advisoryStart": "2023-01-18T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
     },
     {
       "bloomReportId": "3990",
@@ -35670,7 +35670,7 @@
       "advisoryEnd": null,
       "caseStatus": "Closed",
       "caseEnd": "2023-12-21T00:00:00.000Z",
-      "detail": "Water Boards recommends posting “general awareness sign�� for HABs at this site and nearby access points."
+      "detail": "Water Boards recommends posting “general awareness sign” for HABs at this site and nearby access points."
     },
     {
       "bloomReportId": "4348",
@@ -37168,7 +37168,7 @@
       "advisory": "None",
       "advisoryStart": "2024-05-16T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
+      "caseStatus": "Re-opened",
       "caseEnd": null,
       "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
@@ -40453,8 +40453,8 @@
       "advisory": "None",
       "advisoryStart": "2024-09-05T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Water Boards recommends removing the posted advisory at this site."
     },
     {
@@ -40933,7 +40933,7 @@
       "advisory": "None",
       "advisoryStart": "2024-10-11T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
+      "caseStatus": "Re-opened",
       "caseEnd": null,
       "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
@@ -43753,8 +43753,8 @@
       "advisory": "None",
       "advisoryStart": "2025-08-11T00:00:00.000Z",
       "advisoryEnd": "2025-08-11T00:00:00.000Z",
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria."
     },
     {
@@ -46633,7 +46633,7 @@
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Closed",
       "caseEnd": null,
       "detail": ""
     },
@@ -47305,12 +47305,12 @@
       "latitude": 40.756262,
       "longitude": -122.24067,
       "observedAt": "2026-07-09T00:00:00.000Z",
-      "advisory": "NA - refer to Report Details",
+      "advisory": "None",
       "advisoryStart": "2026-07-14T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+      "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "5203",
@@ -47335,12 +47335,12 @@
       "latitude": 40.758106,
       "longitude": -122.25016,
       "observedAt": "2026-07-11T00:00:00.000Z",
-      "advisory": "NA - refer to Report Details",
+      "advisory": "None",
       "advisoryStart": "2026-07-16T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+      "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "5206",
@@ -47440,27 +47440,27 @@
       "latitude": 38.02502,
       "longitude": -122.14124,
       "observedAt": "2026-07-13T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "Danger",
+      "advisoryStart": "2026-07-24T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "5214",
       "waterBody": "Eagle Lake",
-      "landmark": "Susanville, CA",
+      "landmark": "Youth Camp",
       "county": "Lassen",
       "latitude": 40.65277,
       "longitude": -120.70991,
       "observedAt": "2026-07-16T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "Visual observation",
+      "advisoryStart": "2026-07-23T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "This report is under investigation."
     },
     {
       "bloomReportId": "5215",
@@ -47518,7 +47518,7 @@
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Re-opened",
       "caseEnd": null,
       "detail": ""
     },
@@ -47530,12 +47530,12 @@
       "latitude": 37.903,
       "longitude": -121.58794,
       "observedAt": "2026-07-15T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-24T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
     {
       "bloomReportId": "5221",
@@ -47590,13 +47590,88 @@
       "latitude": 39.76837,
       "longitude": -120.6847,
       "observedAt": "2026-07-13T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-07-23T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Alert! High concentration of one or more cyanotoxins measured at this site indicating elevated health risk to humans and animals."
+    },
+    {
+      "bloomReportId": "5225",
+      "waterBody": "Gray Eagle Creek",
+      "landmark": "~1mi below Gray Eagle Ldg. Rd. (518GEC297)",
+      "county": "Plumas",
+      "latitude": 39.73709,
+      "longitude": -120.65399,
+      "observedAt": "2026-07-14T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-07-23T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Alert! High concentration of one or more cyanotoxins measured at this site indicating elevated health risk to humans and animals."
+    },
+    {
+      "bloomReportId": "5226",
+      "waterBody": "Gray Eagle Creek",
+      "landmark": "~1.7mi below Gray Eagle Ldg. Rd. (518GEC309)",
+      "county": "Plumas",
+      "latitude": 39.74578,
+      "longitude": -120.64489,
+      "observedAt": "2026-07-14T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": null,
+      "advisoryStart": "2026-07-23T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5227",
+      "waterBody": "Eel River",
+      "landmark": "Rio Dell",
+      "county": "Humboldt",
+      "latitude": 40.502771,
+      "longitude": -124.09071,
+      "observedAt": "2026-07-23T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-07-24T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made.  This report is under investigation."
+    },
+    {
+      "bloomReportId": "5229",
+      "waterBody": "Tanzanite",
+      "landmark": "Natomas Canal",
+      "county": "Sacramento",
+      "latitude": 38.63244,
+      "longitude": -121.50855,
+      "observedAt": "2026-07-23T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5230",
+      "waterBody": "TEST",
+      "landmark": "Redbud Park",
+      "county": "Lake",
+      "latitude": 38.94,
+      "longitude": -122.64,
+      "observedAt": "2024-07-01T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3580
+  "examined": 3586
 }
