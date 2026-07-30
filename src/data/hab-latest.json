@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T16:00:04.158Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-28.csv",
+  "generatedAt": "2026-07-30T16:01:53.520Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-29.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -28395,7 +28395,7 @@
       "advisoryEnd": "2022-09-22T00:00:00.000Z",
       "caseStatus": "Closed",
       "caseEnd": null,
-      "detail": "Water Boards recommends posting “general awareness sign” for HABs at this site and nearby access points."
+      "detail": "Water Boards recommends posting “general awareness sign��� for HABs at this site and nearby access points."
     },
     {
       "bloomReportId": "3645",
@@ -46241,9 +46241,9 @@
       "longitude": -116.59452,
       "observedAt": "2026-06-07T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": null,
+      "advisoryStart": "2026-07-29T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Closed",
       "caseEnd": null,
       "detail": ""
     },
@@ -47471,7 +47471,7 @@
       "longitude": -118.90486,
       "observedAt": "2026-07-17T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": null,
+      "advisoryStart": "2026-07-29T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -47710,12 +47710,12 @@
       "latitude": 37.15952,
       "longitude": -119.49611,
       "observedAt": "2026-07-26T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "NA - refer to Report Details",
+      "advisoryStart": "2026-07-29T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "This report is under investigation."
     },
     {
       "bloomReportId": "5240",
@@ -47731,7 +47731,52 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5241",
+      "waterBody": "Hume Lake",
+      "landmark": "east",
+      "county": "Fresno",
+      "latitude": 36.79046,
+      "longitude": -118.90152,
+      "observedAt": "2026-07-22T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-29T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5242",
+      "waterBody": "Hume Lake",
+      "landmark": "west",
+      "county": "Fresno",
+      "latitude": 36.78765,
+      "longitude": -118.91145,
+      "observedAt": "2026-07-22T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-29T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5243",
+      "waterBody": "Hume Lake",
+      "landmark": "north",
+      "county": "Fresno",
+      "latitude": 36.79229,
+      "longitude": -118.90618,
+      "observedAt": "2026-07-22T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-29T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     }
   ],
-  "examined": 3589
+  "examined": 3592
 }
