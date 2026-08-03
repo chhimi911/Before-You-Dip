@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-01T15:28:25.402Z",
+  "generatedAt": "2026-08-03T16:41:54.537Z",
   "packages": {
     "fib": {
       "id": "surface-water-fecal-indicator-bacteria-results",
-      "modified": "2026-07-31T18:55:26.665801",
+      "modified": "2026-08-03T16:04:41.910380",
       "resource": {
         "cache_last_updated": null,
         "cache_url": null,
@@ -13,12 +13,12 @@
         "datastore_contains_all_records_of_source_file": true,
         "description": "",
         "format": "CSV",
-        "hash": "498d06f95dd9c4a02118788abdf3d5f0",
+        "hash": "ff8bef7ba3d8ae280443bf28932c0b3d",
         "id": "15a63495-8d9f-4a49-b43a-3092ef3106b9",
         "ignore_hash": false,
         "is_data_dict_populated": true,
-        "last_modified": "2026-07-31T18:57:36.199344",
-        "metadata_modified": "2026-07-31T18:55:26.673286",
+        "last_modified": "2026-08-03T16:06:28.594068",
+        "metadata_modified": "2026-08-03T16:04:41.917690",
         "mimetype": null,
         "mimetype_inner": null,
         "name": "Fecal Indicator Bacteria Monitoring Results - 2020 to present",
@@ -28,9 +28,9 @@
         "resource_id": "15a63495-8d9f-4a49-b43a-3092ef3106b9",
         "resource_type": null,
         "set_url_type": false,
-        "size": 407876194,
+        "size": 408163193,
         "state": "active",
-        "task_created": "2026-07-31 16:16:33.229115",
+        "task_created": "2026-08-03 16:06:28.623410",
         "url": "https://data.ca.gov/dataset/6723ab78-4530-4e97-ba5e-6ffd17a4c139/resource/15a63495-8d9f-4a49-b43a-3092ef3106b9/download/safetoswim_geomeans_2020-present.csv",
         "url_type": "upload"
       }
