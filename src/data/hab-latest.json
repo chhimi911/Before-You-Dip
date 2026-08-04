@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T16:41:54.537Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-07-31.csv",
+  "generatedAt": "2026-08-04T16:23:51.618Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-03.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -15208,8 +15208,8 @@
       "advisory": "General awareness",
       "advisoryStart": "2025-10-03T00:00:00.000Z",
       "advisoryEnd": "2026-01-04T00:00:00.000Z",
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Water Boards recommends removing the posted advisory at this site."
     },
     {
@@ -15221,11 +15221,11 @@
       "longitude": -123.01219,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2023-08-15T00:00:00.000Z",
+      "advisoryStart": "2026-08-03T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
-      "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4031",
@@ -15238,8 +15238,8 @@
       "advisory": "Algal mat general awareness sign",
       "advisoryStart": "2025-07-29T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
@@ -15251,11 +15251,11 @@
       "longitude": -122.93037,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2025-07-29T00:00:00.000Z",
+      "advisoryStart": "2026-08-03T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
-      "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water Boards recommends posting of “algal mats general awareness sign” for HABs at this site and nearby access points.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4033",
@@ -15268,8 +15268,8 @@
       "advisory": "Algal mat general awareness sign",
       "advisoryStart": "2025-07-29T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
     },
     {
@@ -15283,8 +15283,8 @@
       "advisory": "Algal mat general awareness sign",
       "advisoryStart": "2025-07-29T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
     },
     {
@@ -15298,8 +15298,8 @@
       "advisory": "Algal mat general awareness sign",
       "advisoryStart": "2025-07-29T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
     },
     {
@@ -15311,11 +15311,11 @@
       "longitude": -122.83207,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2025-07-29T00:00:00.000Z",
+      "advisoryStart": "2026-08-03T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
-      "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4037",
@@ -15328,8 +15328,8 @@
       "advisory": "Algal mat general awareness sign",
       "advisoryStart": "2025-07-29T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
     },
     {
@@ -15341,11 +15341,11 @@
       "longitude": -123.00994,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2025-07-29T00:00:00.000Z",
+      "advisoryStart": "2026-08-03T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
-      "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points."
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "“Algal mats general awareness sign” for HABs posted at this site and nearby access points.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3151",
@@ -25695,7 +25695,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "3447",
@@ -29113,8 +29113,8 @@
       "advisory": "Warning",
       "advisoryStart": null,
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2024-07-30T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": ""
     },
     {
@@ -38803,8 +38803,8 @@
       "advisory": "None",
       "advisoryStart": "2024-07-11T00:00:00.000Z",
       "advisoryEnd": "2024-11-26T00:00:00.000Z",
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream."
     },
     {
@@ -39073,8 +39073,8 @@
       "advisory": "None",
       "advisoryStart": "2024-07-15T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2024-07-30T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Visual observations of suspicious algae reported - Water Boards staff determined that no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae were present.  Water testing of samples indicated no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae are present that are not known to produce toxins."
     },
     {
@@ -43603,8 +43603,8 @@
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": ""
     },
     {
@@ -43618,8 +43618,8 @@
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": ""
     },
     {
@@ -44533,8 +44533,8 @@
       "advisory": "Algal mat general awareness sign",
       "advisoryStart": "2025-09-10T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream."
     },
     {
@@ -47951,12 +47951,57 @@
       "longitude": -120.6138,
       "observedAt": "2026-07-27T00:00:00.000Z",
       "advisory": "None",
+      "advisoryStart": "2026-07-31T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5260",
+      "waterBody": "Vallejo White Slough",
+      "landmark": "Highway 37, Sacramento Street, Redwood Street, and Highway 29 (Sonoma Blvd)",
+      "county": "Solano",
+      "latitude": 38.12759,
+      "longitude": -122.26238,
+      "observedAt": "2026-07-30T00:00:00.000Z",
+      "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
       "caseStatus": "",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5261",
+      "waterBody": "Lake Pillsbury",
+      "landmark": "near Pine Point and Sunset Boat Launches",
+      "county": "Lake",
+      "latitude": 39.435899,
+      "longitude": -122.94183,
+      "observedAt": "2026-07-19T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-08-03T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "A suspected harmful algal bloom was reported, an investigation is underway and this report will be updated once info is provided by the responding organizations.  Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+    },
+    {
+      "bloomReportId": "5262",
+      "waterBody": "Mad River",
+      "landmark": "At Blue Lake Rancheria",
+      "county": "Humboldt",
+      "latitude": 40.8846793,
+      "longitude": -124.0031,
+      "observedAt": "2026-08-03T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-03T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     }
   ],
-  "examined": 3607
+  "examined": 3610
 }
