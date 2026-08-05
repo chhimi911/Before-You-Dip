@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T16:23:51.618Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-03.csv",
+  "generatedAt": "2026-08-05T16:12:46.445Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-04.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -25495,7 +25495,7 @@
       "latitude": 35.812641,
       "longitude": -120.93146,
       "observedAt": "2022-05-19T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "General awareness",
       "advisoryStart": "2022-05-27T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -46151,7 +46151,7 @@
       "longitude": -120.92565,
       "observedAt": "2026-05-26T00:00:00.000Z",
       "advisory": "General awareness",
-      "advisoryStart": "2026-06-04T00:00:00.000Z",
+      "advisoryStart": "2026-08-04T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
@@ -48001,7 +48001,22 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5264",
+      "waterBody": "Combie lake",
+      "landmark": "Meadow vista",
+      "county": "Placer",
+      "latitude": 39.01575,
+      "longitude": -121.03794,
+      "observedAt": "2026-08-02T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3610
+  "examined": 3612
 }
