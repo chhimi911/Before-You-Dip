@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T16:12:46.445Z",
+  "generatedAt": "2026-08-07T15:10:56.410Z",
   "packages": {
     "fib": {
       "id": "surface-water-fecal-indicator-bacteria-results",
@@ -37,7 +37,7 @@
     },
     "hab": {
       "id": "surface-water-freshwater-harmful-algal-blooms",
-      "modified": "2026-08-05T00:32:10.211367",
+      "modified": "2026-08-07T00:20:13.144274",
       "resource": {
         "cache_last_updated": null,
         "cache_url": null,
@@ -47,25 +47,25 @@
         "datastore_contains_all_records_of_source_file": true,
         "description": "Includes information from individual reports submitted to the agency. Reports include suspected harmful algal blooms and are reviewed by technical staff to determine if an algal bloom is present. The report includes information describing the location, any observations of the area include water surface characteristics, photos, and any known responsible organizations in the area. Technical staff can add additional waterbody information. ",
         "format": "CSV",
-        "hash": "19f832d1d9ca8859e99a8438483ee999",
+        "hash": "f6fb2fb7a2cad197839f8936a2a65f16",
         "id": "c6a36b91-ad38-4611-8750-87ee99e497dd",
         "ignore_hash": false,
         "is_data_dict_populated": true,
-        "last_modified": "2026-08-05T00:31:48.158208",
-        "metadata_modified": "2026-08-05T00:31:52.584638",
+        "last_modified": "2026-08-07T00:17:41.903817",
+        "metadata_modified": "2026-08-07T00:19:13.699942",
         "mimetype": null,
         "mimetype_inner": null,
         "name": "FHABS BLOOM REPORTS",
-        "original_url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-04.csv",
+        "original_url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-06.csv",
         "package_id": "ab672540-aecd-42f1-9b05-9aad326f97ec",
         "position": 2,
         "resource_id": "c6a36b91-ad38-4611-8750-87ee99e497dd",
         "resource_type": null,
         "set_url_type": false,
-        "size": 2370550,
+        "size": 2376297,
         "state": "active",
-        "task_created": "2026-08-05 00:31:48.181636",
-        "url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-04.csv",
+        "task_created": "2026-08-07 00:19:14.044286",
+        "url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-06.csv",
         "url_type": "upload"
       }
     }
