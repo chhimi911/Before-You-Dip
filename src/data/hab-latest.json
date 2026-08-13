@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T15:16:06.961Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-11.csv",
+  "generatedAt": "2026-08-13T15:16:54.812Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-12.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -36118,7 +36118,7 @@
       "advisory": "Algal mat alert sign",
       "advisoryStart": "2023-09-08T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Open",
+      "caseStatus": "Closed",
       "caseEnd": null,
       "detail": "Observations at this site include confirmation of harmful algal bloom that  forms potential toxic algal mats that grow attached to cobble, sand, and plants on the bottom of the waterway. The water can appear clear when algal mats are attached to the bottom. These mats can dislodge and float downstream or strand on the shoreline, children and dogs should avoid touching mat material."
     },
@@ -36268,7 +36268,7 @@
       "advisory": "None",
       "advisoryStart": "2023-09-25T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Open",
+      "caseStatus": "Closed",
       "caseEnd": null,
       "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
@@ -38878,7 +38878,7 @@
       "advisory": "Algal mat alert sign",
       "advisoryStart": "2024-06-26T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Open",
+      "caseStatus": "Closed",
       "caseEnd": null,
       "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
@@ -38893,7 +38893,7 @@
       "advisory": "Algal mat alert sign",
       "advisoryStart": "2024-06-26T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Open",
+      "caseStatus": "Closed",
       "caseEnd": null,
       "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
@@ -39883,7 +39883,7 @@
       "advisory": "None",
       "advisoryStart": "2024-08-06T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Open",
+      "caseStatus": "Closed",
       "caseEnd": null,
       "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
@@ -42490,7 +42490,7 @@
       "latitude": 41.88872,
       "longitude": -121.53925,
       "observedAt": "2025-05-27T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Warning",
       "advisoryStart": "2026-07-14T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -48070,12 +48070,12 @@
       "latitude": 34.243205,
       "longitude": -117.26882,
       "observedAt": "2026-08-05T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "None",
       "advisoryStart": "2026-08-05T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  This report is under investigation."
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report."
     },
     {
       "bloomReportId": "5269",
@@ -48148,7 +48148,7 @@
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Open",
       "caseEnd": null,
       "detail": ""
     },
@@ -48250,12 +48250,12 @@
       "latitude": 39.38301,
       "longitude": -120.15401,
       "observedAt": "2026-08-07T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "Caution",
+      "advisoryStart": "2026-08-12T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "This report is under investigation."
     },
     {
       "bloomReportId": "5283",
@@ -48391,7 +48391,37 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
+    },
+    {
+      "bloomReportId": "5293",
+      "waterBody": "Lake Tahoe",
+      "landmark": "Lake Road in South Lake Tahoe (gated community)",
+      "county": "El Dorado",
+      "latitude": 38.95247,
+      "longitude": -119.95676,
+      "observedAt": "2026-08-11T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5294",
+      "waterBody": "Tulloch Lake",
+      "landmark": "Black Creek Arm",
+      "county": "Calaveras",
+      "latitude": 37.917916,
+      "longitude": -120.6009,
+      "observedAt": "2026-08-12T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3640
+  "examined": 3642
 }
