@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T15:16:54.812Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-12.csv",
+  "generatedAt": "2026-08-14T15:08:36.579Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-13.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -22301,7 +22301,7 @@
       "longitude": -123.70852,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "NA - refer to Report Details",
-      "advisoryStart": "2026-07-30T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -29621,11 +29621,11 @@
       "longitude": -123.08286,
       "observedAt": "2022-08-08T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2025-09-24T00:00:00.000Z",
-      "advisoryEnd": "2026-01-04T00:00:00.000Z",
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
-      "detail": "Water Boards recommends removing the posted advisory at this site."
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3730",
@@ -29638,8 +29638,8 @@
       "advisory": "None",
       "advisoryStart": "2024-08-08T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Water Boards recommends removing the posted advisory at this site."
     },
     {
@@ -32231,7 +32231,7 @@
       "longitude": -122.57085,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-08-11T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -32260,12 +32260,12 @@
       "latitude": 41.82307,
       "longitude": -122.96197,
       "observedAt": "2023-01-23T00:00:00.000Z",
-      "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2025-09-29T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4019",
@@ -32276,7 +32276,7 @@
       "longitude": -123.22011,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-08-11T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -32291,11 +32291,11 @@
       "longitude": -123.39635,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2023-06-13T00:00:00.000Z",
-      "advisoryEnd": "2023-12-18T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water Boards recommends removing the posted advisory at this site."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4021",
@@ -32306,7 +32306,7 @@
       "longitude": -123.5311,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-08-11T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -32336,7 +32336,7 @@
       "longitude": -123.98129,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "NA - refer to Report Details",
-      "advisoryStart": "2026-07-30T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -34001,11 +34001,11 @@
       "longitude": -123.70616,
       "observedAt": "2023-06-21T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2023-06-21T00:00:00.000Z",
-      "advisoryEnd": "2026-01-04T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water Boards recommends removing the posted advisory at this site."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4201",
@@ -39958,8 +39958,8 @@
       "advisory": "Algal mat general awareness sign",
       "advisoryStart": "2024-08-20T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water Boards recommends posting of “algal mats general awareness sign” for HABs at this site and nearby access points.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
@@ -40198,8 +40198,8 @@
       "advisory": "Algal mat alert sign",
       "advisoryStart": "2024-08-27T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
@@ -43811,7 +43811,7 @@
       "longitude": -123.46211,
       "observedAt": "2025-08-13T00:00:00.000Z",
       "advisory": "Algal mat alert sign",
-      "advisoryStart": "2026-07-30T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -47996,11 +47996,11 @@
       "longitude": -124.0031,
       "observedAt": "2026-08-03T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-08-03T00:00:00.000Z",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "5264",
@@ -48421,7 +48421,112 @@
       "caseStatus": "",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5295",
+      "waterBody": "Horse Mountain Creek",
+      "landmark": "above Lost Coast Trail (112HMCLCT)",
+      "county": "Humboldt",
+      "latitude": 40.07,
+      "longitude": -124.07854,
+      "observedAt": "2026-08-04T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5296",
+      "waterBody": "Unnamed Trib to Oils Creek",
+      "landmark": "~1.2mi above Oils Cr.",
+      "county": "Humboldt",
+      "latitude": 40.31712,
+      "longitude": -124.11868,
+      "observedAt": "2026-08-05T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5297",
+      "waterBody": "Sholes Creek",
+      "landmark": "~1.7 miles above Mattole River (112WE1063)",
+      "county": "Humboldt",
+      "latitude": 40.16942,
+      "longitude": -124.04,
+      "observedAt": "2026-08-06T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5298",
+      "waterBody": "Kidder Creek",
+      "landmark": "above Adventure Camp",
+      "county": "Siskiyou",
+      "latitude": 41.524921,
+      "longitude": -122.96831,
+      "observedAt": "2026-08-03T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5299",
+      "waterBody": "Klamath River",
+      "landmark": "below Indian Creek",
+      "county": "Siskiyou",
+      "latitude": 41.789422,
+      "longitude": -123.37918,
+      "observedAt": "2026-08-04T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5300",
+      "waterBody": "Salmon River",
+      "landmark": "near Somes Bar",
+      "county": "Siskiyou",
+      "latitude": 41.37849,
+      "longitude": -123.47554,
+      "observedAt": "2026-08-04T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5301",
+      "waterBody": "Eel River",
+      "landmark": "Potter Valley Tribe Van Arsdale Reservoir",
+      "county": "Mendocino",
+      "latitude": 39.3825693,
+      "longitude": -123.10298,
+      "observedAt": "2026-08-03T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     }
   ],
-  "examined": 3642
+  "examined": 3649
 }
