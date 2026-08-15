@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T15:08:36.579Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-13.csv",
+  "generatedAt": "2026-08-15T14:41:26.700Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-14.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -370,7 +370,7 @@
       "latitude": 37.846563,
       "longitude": -122.23053,
       "observedAt": "2023-01-01T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "None",
       "advisoryStart": "2023-01-01T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -38351,7 +38351,7 @@
       "longitude": -121.69367,
       "observedAt": "2024-06-25T00:00:00.000Z",
       "advisory": "Caution",
-      "advisoryStart": "2026-08-07T00:00:00.000Z",
+      "advisoryStart": "2026-08-14T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
@@ -47636,11 +47636,11 @@
       "longitude": -124.09071,
       "observedAt": "2026-07-23T00:00:00.000Z",
       "advisory": "Algal mat alert sign",
-      "advisoryStart": "2026-07-24T00:00:00.000Z",
+      "advisoryStart": "2026-08-14T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made.  This report is under investigation."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
     {
       "bloomReportId": "5229",
