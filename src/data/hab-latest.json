@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T14:56:51.128Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-19.csv",
+  "generatedAt": "2026-08-21T14:54:47.940Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-20.csv",
   "records": [
     {
       "bloomReportId": "5125",
@@ -153,21 +153,6 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5306",
-      "waterBody": "Harveston Lake",
-      "landmark": "",
-      "county": "",
-      "latitude": 33.53809,
-      "longitude": -117.15744,
-      "observedAt": "2026-08-18T00:00:00.000Z",
-      "advisory": "General awareness",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
       "bloomReportId": "5307",
       "waterBody": "Pleasant Valley Reservoir",
       "landmark": "",
@@ -183,12 +168,27 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5308",
-      "waterBody": "Trinity River",
-      "landmark": "Tish Tang Campground River access",
-      "county": "Humboldt",
-      "latitude": 41.02312,
-      "longitude": -123.6349,
+      "bloomReportId": "5310",
+      "waterBody": "Lake Britton",
+      "landmark": "Lake Britton Picnic Area",
+      "county": "Shasta",
+      "latitude": 41.0238,
+      "longitude": -121.66817,
+      "observedAt": "2026-08-19T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5311",
+      "waterBody": "Species Conservation Habitat",
+      "landmark": "Brawley, CA",
+      "county": "Imperial",
+      "latitude": 33.11954,
+      "longitude": -115.67369,
       "observedAt": "2026-08-19T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
@@ -34548,6 +34548,21 @@
       "detail": ""
     },
     {
+      "bloomReportId": "5308",
+      "waterBody": "Trinity River",
+      "landmark": "Tish Tang Campground River access",
+      "county": "Humboldt",
+      "latitude": 41.02312,
+      "longitude": -123.6349,
+      "observedAt": "2026-08-19T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
       "bloomReportId": "4200",
       "waterBody": "Trinity River",
       "landmark": "at Weitchpec",
@@ -35268,6 +35283,36 @@
       "detail": "A suspected harmful algal bloom was reported, an investigation is underway and this report will be updated once info is provided by the responding organizations.  This report is under investigation."
     },
     {
+      "bloomReportId": "5220",
+      "waterBody": "Discovery Bay Marina",
+      "landmark": "Bar and Grill",
+      "county": "Contra Costa",
+      "latitude": 37.903,
+      "longitude": -121.58794,
+      "observedAt": "2026-07-15T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-24T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+    },
+    {
+      "bloomReportId": "5194",
+      "waterBody": "Discovery Bay",
+      "landmark": "Carillo Bay",
+      "county": "Contra Costa",
+      "latitude": 37.90944,
+      "longitude": -121.60614,
+      "observedAt": "2026-07-08T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-08T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
+    },
+    {
       "bloomReportId": "4904",
       "waterBody": "Discovery Bay",
       "landmark": "Marlin Dr. near the marina",
@@ -35341,36 +35386,6 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Visual observations of suspicious algae reported - Water Boards staff determined that no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae were present."
-    },
-    {
-      "bloomReportId": "5220",
-      "waterBody": "Discovery Bay Marina",
-      "landmark": "Bar and Grill",
-      "county": "Contra Costa",
-      "latitude": 37.903,
-      "longitude": -121.58794,
-      "observedAt": "2026-07-15T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-07-24T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
-    },
-    {
-      "bloomReportId": "5194",
-      "waterBody": "Discovery Bay",
-      "landmark": "Carillo Bay",
-      "county": "Contra Costa",
-      "latitude": 37.90944,
-      "longitude": -121.60614,
-      "observedAt": "2026-07-08T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-07-08T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
     },
     {
       "bloomReportId": "4068",
@@ -35703,36 +35718,6 @@
       "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
-      "bloomReportId": "5150",
-      "waterBody": "San Diego River",
-      "landmark": "San Diego River, Sefton Park",
-      "county": "San Diego",
-      "latitude": 32.761868,
-      "longitude": -117.18989,
-      "observedAt": "2026-06-19T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": "2026-07-01T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5077",
-      "waterBody": "San Diego River (7.12)",
-      "landmark": "Old Man's Pond between Magnolia Ave and Cuyamaca St",
-      "county": "San Diego",
-      "latitude": 32.846462,
-      "longitude": -116.97724,
-      "observedAt": "2026-05-04T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": "2026-05-04T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria."
-    },
-    {
       "bloomReportId": "4805",
       "waterBody": "San Diego River (7.31)",
       "landmark": "Old Mission Dam",
@@ -35772,6 +35757,36 @@
       "observedAt": "2025-11-05T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": "2025-11-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria."
+    },
+    {
+      "bloomReportId": "5150",
+      "waterBody": "San Diego River",
+      "landmark": "San Diego River, Sefton Park",
+      "county": "San Diego",
+      "latitude": 32.761868,
+      "longitude": -117.18989,
+      "observedAt": "2026-06-19T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-01T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5077",
+      "waterBody": "San Diego River (7.12)",
+      "landmark": "Old Man's Pond between Magnolia Ave and Cuyamaca St",
+      "county": "San Diego",
+      "latitude": 32.846462,
+      "longitude": -116.97724,
+      "observedAt": "2026-05-04T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-05-04T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -40771,6 +40786,21 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+    },
+    {
+      "bloomReportId": "5306",
+      "waterBody": "Harveston Lake",
+      "landmark": "",
+      "county": "",
+      "latitude": 33.53809,
+      "longitude": -117.15744,
+      "observedAt": "2026-08-18T00:00:00.000Z",
+      "advisory": "Warning",
+      "advisoryStart": "2026-08-20T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
     },
     {
       "bloomReportId": "4438",
@@ -48633,5 +48663,5 @@
       "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     }
   ],
-  "examined": 3657
+  "examined": 3659
 }
