@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T14:40:27.700Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-21.csv",
+  "generatedAt": "2026-08-25T15:07:59.260Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-24.csv",
   "records": [
     {
       "bloomReportId": "5125",
@@ -153,14 +153,14 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5305",
-      "waterBody": "Prado Reservoir",
-      "landmark": "",
-      "county": "San Bernardino",
-      "latitude": 33.942244,
-      "longitude": -117.64397,
-      "observedAt": "2026-08-17T00:00:00.000Z",
-      "advisory": "Warning",
+      "bloomReportId": "5304",
+      "waterBody": "maybe Long valley Creek",
+      "landmark": "Highway 162 (Covelo Road) at the Eel River Bridge, near Longvale,",
+      "county": "Mendocino",
+      "latitude": 39.553592,
+      "longitude": -123.42521,
+      "observedAt": "2026-08-16T00:00:00.000Z",
+      "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
       "caseStatus": "",
@@ -183,13 +183,13 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5311",
-      "waterBody": "Species Conservation Habitat",
-      "landmark": "Brawley, CA",
-      "county": "Imperial",
-      "latitude": 33.11954,
-      "longitude": -115.67369,
-      "observedAt": "2026-08-19T00:00:00.000Z",
+      "bloomReportId": "5316",
+      "waterBody": "Smith River",
+      "landmark": "Jedediah Smith Redwood State Park",
+      "county": "Del Norte",
+      "latitude": 41.79372,
+      "longitude": -124.08837,
+      "observedAt": "2026-08-21T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -198,13 +198,28 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5316",
-      "waterBody": "Smith River",
-      "landmark": "Jedediah Smith Redwood State Park",
-      "county": "Del Norte",
-      "latitude": 41.79372,
-      "longitude": -124.08837,
-      "observedAt": "2026-08-21T00:00:00.000Z",
+      "bloomReportId": "5317",
+      "waterBody": "South Fork Trinity River",
+      "landmark": "Little Slide Campground",
+      "county": "Trinity",
+      "latitude": 40.66879,
+      "longitude": -123.50327,
+      "observedAt": "2026-08-23T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5318",
+      "waterBody": "Beach creek resort apartments",
+      "landmark": "12221 Beach Blvd, Garden Grove, CA",
+      "county": "Orange",
+      "latitude": 33.785496,
+      "longitude": -117.99317,
+      "observedAt": "2026-06-01T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -28480,7 +28495,7 @@
       "latitude": 34.280289,
       "longitude": -117.32992,
       "observedAt": "2023-01-06T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2022-06-03T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -28510,7 +28525,7 @@
       "latitude": 34.28222,
       "longitude": -117.335,
       "observedAt": "2023-01-06T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2022-06-03T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -28715,7 +28730,7 @@
     {
       "bloomReportId": "4822",
       "waterBody": "Pine Mountain Lake",
-      "landmark": "Pine Mountain Lake marina",
+      "landmark": "at Garrotte Creek Cove (536TUO217)",
       "county": "Tuolumne",
       "latitude": 37.84857,
       "longitude": -120.2007,
@@ -28730,17 +28745,17 @@
     {
       "bloomReportId": "4723",
       "waterBody": "Pine Mountain Lake",
-      "landmark": "bass pond south",
+      "landmark": "Bass Pond west of Clements Rd (536TUO216)",
       "county": "Tuolumne",
       "latitude": 37.866091,
       "longitude": -120.17444,
       "observedAt": "2024-09-26T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2024-10-08T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "3467",
@@ -29275,12 +29290,12 @@
       "latitude": 33.94343,
       "longitude": -117.64838,
       "observedAt": "2022-09-02T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "Danger",
+      "advisoryStart": "2026-08-20T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Alert! Observations of scum and surface accumulation of algal material present at this site indicating elevated health risk to humans and animals. Surface accumulations may become stranded along shoreline, children and dogs should avoid contact.  Lake closed until further notice due to massive fish kill. The cause is still under investigation."
     },
     {
       "bloomReportId": "3510",
@@ -32350,7 +32365,7 @@
       "latitude": 34.286111,
       "longitude": -117.34444,
       "observedAt": "2023-01-06T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2022-06-03T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -33213,19 +33228,19 @@
       "detail": ""
     },
     {
-      "bloomReportId": "3909",
-      "waterBody": "Lake Hemet",
-      "landmark": "northwest shore (802LHN004)",
-      "county": "Riverside",
-      "latitude": 33.667932,
-      "longitude": -116.69973,
-      "observedAt": "2022-10-06T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-06-23T00:00:00.000Z",
+      "bloomReportId": "5305",
+      "waterBody": "Prado Reservoir",
+      "landmark": "lake-wide",
+      "county": "San Bernardino",
+      "latitude": 33.942244,
+      "longitude": -117.64397,
+      "observedAt": "2026-08-17T00:00:00.000Z",
+      "advisory": "Warning",
+      "advisoryStart": null,
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Observations at this site include confirmation of harmful algal bloom that forms floating/planktonic blooms. Children and dogs should avoid skin contact with bloom material that may appear as discolored water, milky water, with a surface sheen (like spilled paint), or scum."
+      "detail": ""
     },
     {
       "bloomReportId": "4725",
@@ -33250,6 +33265,21 @@
       "latitude": 33.667146,
       "longitude": -116.67973,
       "observedAt": "2023-06-15T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-06-23T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Observations at this site include confirmation of harmful algal bloom that forms floating/planktonic blooms. Children and dogs should avoid skin contact with bloom material that may appear as discolored water, milky water, with a surface sheen (like spilled paint), or scum."
+    },
+    {
+      "bloomReportId": "3909",
+      "waterBody": "Lake Hemet",
+      "landmark": "northwest shore (802LHN004)",
+      "county": "Riverside",
+      "latitude": 33.667932,
+      "longitude": -116.69973,
+      "observedAt": "2022-10-06T00:00:00.000Z",
       "advisory": "Caution",
       "advisoryStart": "2026-06-23T00:00:00.000Z",
       "advisoryEnd": null,
@@ -33318,21 +33348,6 @@
       "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
-      "bloomReportId": "4497",
-      "waterBody": "Lake Perris",
-      "landmark": "Lake Perris, Outlet PE002 (surface)",
-      "county": "Riverside",
-      "latitude": 33.839711,
-      "longitude": -117.17628,
-      "observedAt": "2024-05-24T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": "2024-06-03T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Ongoing",
-      "caseEnd": "2024-12-31T00:00:00.000Z",
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
-    },
-    {
       "bloomReportId": "3920",
       "waterBody": "Lake Perris",
       "landmark": "Moreno Swim Beach",
@@ -33372,6 +33387,21 @@
       "observedAt": "2023-01-04T00:00:00.000Z",
       "advisory": "Warning",
       "advisoryStart": "2023-01-17T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Ongoing",
+      "caseEnd": "2024-12-31T00:00:00.000Z",
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+    },
+    {
+      "bloomReportId": "4497",
+      "waterBody": "Lake Perris",
+      "landmark": "Lake Perris, Outlet PE002 (surface)",
+      "county": "Riverside",
+      "latitude": 33.839711,
+      "longitude": -117.17628,
+      "observedAt": "2024-05-24T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2024-06-03T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": "2024-12-31T00:00:00.000Z",
@@ -34710,7 +34740,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4054",
@@ -34740,7 +34770,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4072",
@@ -34845,7 +34875,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3253",
@@ -34875,7 +34905,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3194",
@@ -34905,7 +34935,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3196",
@@ -34920,7 +34950,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3197",
@@ -34935,7 +34965,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3198",
@@ -48558,6 +48588,21 @@
       "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
+      "bloomReportId": "5311",
+      "waterBody": "Salton Sea",
+      "landmark": "Species Conservation Habitat Brawley, CA",
+      "county": "Imperial",
+      "latitude": 33.11954,
+      "longitude": -115.67369,
+      "observedAt": "2026-08-19T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
       "bloomReportId": "5286",
       "waterBody": "Bell Canyon Reservoir",
       "landmark": "Bell Canyon Reservoir",
@@ -48753,5 +48798,5 @@
       "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     }
   ],
-  "examined": 3664
+  "examined": 3666
 }
