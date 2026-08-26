@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T15:07:59.260Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-24.csv",
+  "generatedAt": "2026-08-26T15:58:12.991Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-25.csv",
   "records": [
     {
       "bloomReportId": "5125",
@@ -138,21 +138,6 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5293",
-      "waterBody": "Lake Tahoe",
-      "landmark": "Lake Road in South Lake Tahoe (gated community)",
-      "county": "El Dorado",
-      "latitude": 38.95247,
-      "longitude": -119.95676,
-      "observedAt": "2026-08-11T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
       "bloomReportId": "5304",
       "waterBody": "maybe Long valley Creek",
       "landmark": "Highway 162 (Covelo Road) at the Eel River Bridge, near Longvale,",
@@ -160,36 +145,6 @@
       "latitude": 39.553592,
       "longitude": -123.42521,
       "observedAt": "2026-08-16T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5307",
-      "waterBody": "Pleasant Valley Reservoir",
-      "landmark": "",
-      "county": "Inyo",
-      "latitude": 37.42236,
-      "longitude": -118.53644,
-      "observedAt": "2026-08-18T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5316",
-      "waterBody": "Smith River",
-      "landmark": "Jedediah Smith Redwood State Park",
-      "county": "Del Norte",
-      "latitude": 41.79372,
-      "longitude": -124.08837,
-      "observedAt": "2026-08-21T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -220,6 +175,21 @@
       "latitude": 33.785496,
       "longitude": -117.99317,
       "observedAt": "2026-06-01T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5319",
+      "waterBody": "Lake Merced",
+      "landmark": "Southernmost edge of Lake Merced near Daly City/SF border, south end of the lake.",
+      "county": "San Francisco",
+      "latitude": 37.71013,
+      "longitude": -122.48674,
+      "observedAt": "2026-08-25T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -20981,7 +20951,7 @@
       "longitude": -122.83207,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2026-08-11T00:00:00.000Z",
+      "advisoryStart": "2026-08-25T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -20996,7 +20966,7 @@
       "longitude": -123.00994,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2026-08-11T00:00:00.000Z",
+      "advisoryStart": "2026-08-25T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -21071,7 +21041,7 @@
       "longitude": -123.01219,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2026-08-11T00:00:00.000Z",
+      "advisoryStart": "2026-08-25T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -21116,7 +21086,7 @@
       "longitude": -122.93037,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "Algal mat general awareness sign",
-      "advisoryStart": "2026-08-11T00:00:00.000Z",
+      "advisoryStart": "2026-08-25T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -23670,7 +23640,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "3941",
@@ -23685,7 +23655,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "3964",
@@ -33520,12 +33490,12 @@
       "latitude": 37.220192,
       "longitude": -119.96653,
       "observedAt": "2023-01-01T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Danger",
       "advisoryStart": "2023-01-01T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "3944",
@@ -33535,12 +33505,12 @@
       "latitude": 37.22707,
       "longitude": -119.98293,
       "observedAt": "2023-01-01T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Danger",
       "advisoryStart": "2023-01-01T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Alert! Observations of floating or stranded algal mats accumulating at this site indicating elevated health risk to humans and animals, children and dogs should avoid touching mat material.  Alert! Observations of scum and surface accumulation of algal material present at this site indicating elevated health risk to humans and animals. Surface accumulations may become stranded along shoreline, children and dogs should avoid contact."
     },
     {
       "bloomReportId": "3956",
@@ -33976,6 +33946,21 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Water testing of samples indicated no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae are present that are not known to produce toxins."
+    },
+    {
+      "bloomReportId": "5293",
+      "waterBody": "Lake Tahoe",
+      "landmark": "Lake Road in South Lake Tahoe (gated community)",
+      "county": "El Dorado",
+      "latitude": 38.95247,
+      "longitude": -119.95676,
+      "observedAt": "2026-08-11T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
     },
     {
       "bloomReportId": "4359",
@@ -36371,7 +36356,7 @@
       "longitude": -117.26499,
       "observedAt": "2025-05-06T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-06-24T00:00:00.000Z",
+      "advisoryStart": "2026-08-25T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -39850,6 +39835,21 @@
       "latitude": 37.423403,
       "longitude": -118.53857,
       "observedAt": "2024-08-19T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5307",
+      "waterBody": "Pleasant Valley Reservoir",
+      "landmark": "",
+      "county": "Inyo",
+      "latitude": 37.42236,
+      "longitude": -118.53644,
+      "observedAt": "2026-08-18T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -46915,7 +46915,7 @@
       "latitude": 33.078602,
       "longitude": -117.06187,
       "observedAt": "2026-05-12T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2026-05-12T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -46935,7 +46935,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "5097",
@@ -48796,7 +48796,22 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+    },
+    {
+      "bloomReportId": "5316",
+      "waterBody": "Smith River",
+      "landmark": "Jedediah Smith Redwood State Park",
+      "county": "Del Norte",
+      "latitude": 41.79372,
+      "longitude": -124.08837,
+      "observedAt": "2026-08-21T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-08-25T00:00:00.000Z",
+      "advisoryEnd": "2026-08-25T00:00:00.000Z",
+      "caseStatus": "Closed",
+      "caseEnd": null,
+      "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream."
     }
   ],
-  "examined": 3666
+  "examined": 3667
 }
