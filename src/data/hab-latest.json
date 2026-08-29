@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T23:34:16.842Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-27.csv",
+  "generatedAt": "2026-08-29T17:44:33.823Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-28.csv",
   "records": [
     {
       "bloomReportId": "5125",
@@ -18165,7 +18165,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water testing of samples indicated no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae are present that are not known to produce toxins."
+      "detail": "“General awareness sign” for HABs was posted at this site and nearby access points.  Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "3044",
@@ -18255,7 +18255,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Observations at this site include confirmation of harmful algal bloom that  forms potential toxic algal mats that grow attached to cobble, sand, and plants on the bottom of the waterway. The water can appear clear when algal mats are attached to the bottom. These mats can dislodge and float downstream or strand on the shoreline, children and dogs should avoid touching mat material.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water Boards recommends posting “general awareness sign” for HABs at this site and nearby access points.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "2980",
@@ -23925,7 +23925,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "3199",
@@ -25945,12 +25945,12 @@
       "latitude": 38.5578,
       "longitude": -122.2322,
       "observedAt": "2022-06-23T00:00:00.000Z",
-      "advisory": "General awareness",
+      "advisory": "Caution",
       "advisoryStart": "2022-06-29T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
     },
     {
       "bloomReportId": "3500",
@@ -26010,7 +26010,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "5175",
@@ -26020,12 +26020,12 @@
       "latitude": 38.6248229,
       "longitude": -122.28883,
       "observedAt": "2026-06-24T00:00:00.000Z",
-      "advisory": "General awareness",
+      "advisory": "Caution",
       "advisoryStart": "2026-07-02T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
     },
     {
       "bloomReportId": "3348",
@@ -33070,7 +33070,7 @@
       "latitude": 34.25,
       "longitude": -116.97,
       "observedAt": "2023-05-16T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Warning",
       "advisoryStart": "2026-05-06T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -33085,7 +33085,7 @@
       "latitude": 34.26,
       "longitude": -116.88,
       "observedAt": "2023-05-16T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Warning",
       "advisoryStart": "2026-05-06T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -33130,7 +33130,7 @@
       "latitude": 34.23884,
       "longitude": -116.94974,
       "observedAt": "2024-06-19T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Warning",
       "advisoryStart": "2026-05-06T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -33670,12 +33670,12 @@
       "latitude": 38.947114,
       "longitude": -119.96757,
       "observedAt": "2023-05-16T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Visual observation",
       "advisoryStart": "2023-05-25T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Observations confirmed that no bloom is present at this location, causes of blooms include nuisance algae or harmful algal bloom species. This area may be impacted by excessive growth of aquatic weeds.  Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria."
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water Boards recommends posting “general awareness sign” for HABs at this site and nearby access points.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4077",
@@ -33880,12 +33880,12 @@
       "latitude": 39.236045,
       "longitude": -120.02571,
       "observedAt": "2024-06-26T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Visual observation",
       "advisoryStart": "2024-06-26T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+      "detail": "“General awareness sign” for HABs was posted at this site and nearby access points.  Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4582",
@@ -33945,7 +33945,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water testing of samples indicated no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae are present that are not known to produce toxins."
+      "detail": "“General awareness sign” for HABs was posted at this site and nearby access points.  Water testing of samples indicated no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae are present that are not known to produce toxins.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "5293",
@@ -34256,7 +34256,7 @@
       "longitude": -122.57085,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryStart": "2026-08-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -34285,12 +34285,12 @@
       "latitude": 41.82307,
       "longitude": -122.96197,
       "observedAt": "2023-01-23T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Algal mat alert sign",
       "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4019",
@@ -34301,7 +34301,7 @@
       "longitude": -123.22011,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryStart": "2026-08-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -34345,12 +34345,12 @@
       "latitude": 41.789422,
       "longitude": -123.37918,
       "observedAt": "2026-08-04T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Algal mat alert sign",
       "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4008",
@@ -34451,7 +34451,7 @@
       "longitude": -123.5311,
       "observedAt": "2023-01-23T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-08-13T00:00:00.000Z",
+      "advisoryStart": "2026-08-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -36640,7 +36640,7 @@
       "latitude": 37.58088,
       "longitude": -118.74165,
       "observedAt": "2023-06-11T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Danger",
       "advisoryStart": "2023-06-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -40886,11 +40886,11 @@
       "longitude": -122.35643,
       "observedAt": "2024-03-18T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-07-02T00:00:00.000Z",
+      "advisoryStart": "2026-08-28T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4446",
