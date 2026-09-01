@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T17:44:33.823Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-28.csv",
+  "generatedAt": "2026-09-01T17:50:50.381Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-31.csv",
   "records": [
     {
       "bloomReportId": "5125",
@@ -65,7 +65,7 @@
     {
       "bloomReportId": "5260",
       "waterBody": "Vallejo White Slough",
-      "landmark": "Highway 37, Sacramento Street, Redwood Street, and Highway 29 (Sonoma Blvd)",
+      "landmark": "Highway 37",
       "county": "Solano",
       "latitude": 38.12759,
       "longitude": -122.26238,
@@ -169,7 +169,7 @@
     },
     {
       "bloomReportId": "5318",
-      "waterBody": "Beach creek resort apartments",
+      "waterBody": "Beach creek resort apartments pond",
       "landmark": "12221 Beach Blvd, Garden Grove, CA",
       "county": "Orange",
       "latitude": 33.785496,
@@ -185,11 +185,26 @@
     {
       "bloomReportId": "5319",
       "waterBody": "Lake Merced",
-      "landmark": "Southernmost edge of Lake Merced near Daly City/SF border, south end of the lake.",
+      "landmark": "South end of lake near Daly City",
       "county": "San Francisco",
       "latitude": 37.71013,
       "longitude": -122.48674,
       "observedAt": "2026-08-25T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5320",
+      "waterBody": "San Juan Creek and Laguna Nigel Lake",
+      "landmark": "multiple locations",
+      "county": "Orange",
+      "latitude": 33.5126,
+      "longitude": -117.631,
+      "observedAt": "2026-08-19T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -25465,12 +25480,12 @@
       "latitude": 32.99865,
       "longitude": -116.79891,
       "observedAt": "2022-12-30T00:00:00.000Z",
-      "advisory": "General awareness",
+      "advisory": "Danger",
       "advisoryStart": "2023-01-02T00:00:00.000Z",
       "advisoryEnd": "2023-02-02T00:00:00.000Z",
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water Boards recommends posting “general awareness sign” for HABs at this site and nearby access points."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "3328",
@@ -33026,7 +33041,7 @@
       "longitude": -121.69367,
       "observedAt": "2024-06-25T00:00:00.000Z",
       "advisory": "Caution",
-      "advisoryStart": "2026-08-21T00:00:00.000Z",
+      "advisoryStart": "2026-08-31T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
@@ -35801,11 +35816,11 @@
       "longitude": -117.18989,
       "observedAt": "2026-06-19T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2026-07-01T00:00:00.000Z",
+      "advisoryStart": "2026-08-31T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Observations confirmed that no bloom is present at this location, causes of blooms include nuisance algae or harmful algal bloom species. This area may be impacted by excessive growth of aquatic weeds."
     },
     {
       "bloomReportId": "5077",
@@ -35815,12 +35830,12 @@
       "latitude": 32.846462,
       "longitude": -116.97724,
       "observedAt": "2026-05-04T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2026-05-04T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "4102",
@@ -38116,6 +38131,21 @@
       "caseStatus": "Open",
       "caseEnd": "2024-01-02T00:00:00.000Z",
       "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+    },
+    {
+      "bloomReportId": "5326",
+      "waterBody": "Kern River",
+      "landmark": "Keysville Beach, Kern River",
+      "county": "Kern",
+      "latitude": 35.6357379,
+      "longitude": -118.4865,
+      "observedAt": "2026-08-27T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-08-31T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
     {
       "bloomReportId": "4226",
@@ -40840,12 +40870,12 @@
       "latitude": 33.53809,
       "longitude": -117.15744,
       "observedAt": "2026-08-18T00:00:00.000Z",
-      "advisory": "Warning",
-      "advisoryStart": "2026-08-20T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-08-31T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "4438",
@@ -45190,7 +45220,7 @@
       "latitude": 34.489731,
       "longitude": -114.40348,
       "observedAt": "2025-06-24T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "None",
       "advisoryStart": "2026-05-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -48903,5 +48933,5 @@
       "detail": "Alert! High concentration of one or more cyanotoxins measured at this site indicating elevated health risk to humans and animals."
     }
   ],
-  "examined": 3673
+  "examined": 3674
 }
