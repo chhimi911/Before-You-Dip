@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T17:50:50.381Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-08-31.csv",
+  "generatedAt": "2026-09-02T17:55:29.503Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-01.csv",
   "records": [
     {
       "bloomReportId": "5125",
@@ -18,24 +18,9 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5143",
-      "waterBody": "Private pond",
-      "landmark": "Red Hawk Rd Corona CA",
-      "county": "Riverside",
-      "latitude": 33.746351,
-      "longitude": -117.46392,
-      "observedAt": "2026-06-17T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
       "bloomReportId": "5151",
       "waterBody": "Middle Sespe Creek",
-      "landmark": "Middle Sespe trail at deep swim hole and in creek",
+      "landmark": "Middle Sespe trail at deep swim hole and in creek?",
       "county": "Ventura",
       "latitude": 34.558577,
       "longitude": -119.26717,
@@ -78,58 +63,13 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5265",
-      "waterBody": "San Luis Rey River",
-      "landmark": "La Jolla Indian Campground",
-      "county": "San Diego",
-      "latitude": 33.273611,
-      "longitude": -116.85173,
-      "observedAt": "2026-05-24T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5267",
-      "waterBody": "Alameda Beach San Francisco Bay",
-      "landmark": "Alameda South Shore Beach",
-      "county": "Alameda",
-      "latitude": 37.754694,
-      "longitude": -122.25296,
-      "observedAt": "2026-06-28T00:00:00.000Z",
-      "advisory": "General awareness",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5274",
-      "waterBody": "Big Bear Lake, Boulder Bay",
-      "landmark": "Shoreline around peninsula road",
-      "county": "San Bernardino",
-      "latitude": 34.238775,
-      "longitude": -116.95294,
-      "observedAt": "2026-08-06T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5281",
-      "waterBody": "Private Residence Pond",
-      "landmark": "Santa Barbara",
-      "county": "Santa Barbara",
-      "latitude": 34.51088,
-      "longitude": -119.5972,
-      "observedAt": "2026-07-16T00:00:00.000Z",
+      "bloomReportId": "5263",
+      "waterBody": "Las Trampas Creek",
+      "landmark": "Lafayette-Moraga trail at Glenside near Lafayette CA",
+      "county": "Contra Costa",
+      "latitude": 37.854897,
+      "longitude": -122.10452,
+      "observedAt": "2026-08-03T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
       "advisoryEnd": null,
@@ -139,8 +79,8 @@
     },
     {
       "bloomReportId": "5304",
-      "waterBody": "maybe Long valley Creek",
-      "landmark": "Highway 162 (Covelo Road) at the Eel River Bridge, near Longvale,",
+      "waterBody": "maybe? Long valley Creek",
+      "landmark": "Unknown",
       "county": "Mendocino",
       "latitude": 39.553592,
       "longitude": -123.42521,
@@ -168,42 +108,12 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5318",
-      "waterBody": "Beach creek resort apartments pond",
-      "landmark": "12221 Beach Blvd, Garden Grove, CA",
+      "bloomReportId": "5327",
+      "waterBody": "Laguna Niguel Lake",
+      "landmark": "unknown",
       "county": "Orange",
-      "latitude": 33.785496,
-      "longitude": -117.99317,
-      "observedAt": "2026-06-01T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5319",
-      "waterBody": "Lake Merced",
-      "landmark": "South end of lake near Daly City",
-      "county": "San Francisco",
-      "latitude": 37.71013,
-      "longitude": -122.48674,
-      "observedAt": "2026-08-25T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
-      "bloomReportId": "5320",
-      "waterBody": "San Juan Creek and Laguna Nigel Lake",
-      "landmark": "multiple locations",
-      "county": "Orange",
-      "latitude": 33.5126,
-      "longitude": -117.631,
+      "latitude": 33.54695,
+      "longitude": -117.70528,
       "observedAt": "2026-08-19T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": null,
@@ -7305,7 +7215,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "2155",
@@ -16155,7 +16065,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "2535",
@@ -16255,12 +16165,12 @@
       "latitude": 38.981029,
       "longitude": -122.68986,
       "observedAt": "2022-06-06T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Danger",
       "advisoryStart": "2022-06-14T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4047",
@@ -16350,7 +16260,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4065",
@@ -22675,12 +22585,12 @@
       "latitude": 39.0239133,
       "longitude": -122.67175,
       "observedAt": "2022-05-10T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Danger",
       "advisoryStart": "2022-05-19T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "3239",
@@ -22695,7 +22605,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "3243",
@@ -25728,6 +25638,21 @@
       "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Observations at this site include confirmation of harmful algal bloom that forms floating/planktonic blooms. Children and dogs should avoid skin contact with bloom material that may appear as discolored water, milky water, with a surface sheen (like spilled paint), or scum.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
+      "bloomReportId": "5274",
+      "waterBody": "Big Bear Lake",
+      "landmark": "Boulder Bay Shoreline around peninsula road",
+      "county": "San Bernardino",
+      "latitude": 34.238775,
+      "longitude": -116.95294,
+      "observedAt": "2026-08-06T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Ongoing",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
       "bloomReportId": "3333",
       "waterBody": "Lagunitas Creek",
       "landmark": "Ink Wells Park",
@@ -25756,6 +25681,21 @@
       "caseStatus": "Ongoing",
       "caseEnd": null,
       "detail": "Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria."
+    },
+    {
+      "bloomReportId": "5017",
+      "waterBody": "Napa river",
+      "landmark": "Napa River ecology reserve",
+      "county": "Napa",
+      "latitude": 38.417655,
+      "longitude": -122.35311,
+      "observedAt": "2025-10-01T00:00:00.000Z",
+      "advisory": "General awareness",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Ongoing",
+      "caseEnd": null,
+      "detail": ""
     },
     {
       "bloomReportId": "4096",
@@ -25801,21 +25741,6 @@
       "caseStatus": "Ongoing",
       "caseEnd": null,
       "detail": "Water testing of samples indicated no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae are present that are not known to produce toxins."
-    },
-    {
-      "bloomReportId": "5017",
-      "waterBody": "Napa river",
-      "landmark": "Napa River ecology reserve",
-      "county": "Napa",
-      "latitude": 38.417655,
-      "longitude": -122.35311,
-      "observedAt": "2025-10-01T00:00:00.000Z",
-      "advisory": "General awareness",
-      "advisoryStart": null,
-      "advisoryEnd": null,
-      "caseStatus": "Ongoing",
-      "caseEnd": null,
-      "detail": ""
     },
     {
       "bloomReportId": "4095",
@@ -30946,6 +30871,21 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5265",
+      "waterBody": "San Luis Rey River",
+      "landmark": "La Jolla Indian Campground",
+      "county": "San Diego",
+      "latitude": 33.273611,
+      "longitude": -116.85173,
+      "observedAt": "2026-05-24T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
     },
     {
       "bloomReportId": "3715",
@@ -36228,6 +36168,21 @@
       "detail": "Marine bloom or “red tide” are suspected in this area. Red tides appear reddish-brown color and can cause marine animal impacts, particularly for fish. Until water monitoring results are provided to confirm presence of red tide in this area, we recommend people and pets avoid contact with the water during times of any water discoloration or dense blooms in the water. People exposed to marine algae blooms via water contact may experience irritation of the eyes, skin, or respiratory system.   This report is under investigation."
     },
     {
+      "bloomReportId": "5267",
+      "waterBody": "San Francisco Bay",
+      "landmark": "Alameda South Shore Beach",
+      "county": "Alameda",
+      "latitude": 37.754694,
+      "longitude": -122.25296,
+      "observedAt": "2026-06-28T00:00:00.000Z",
+      "advisory": "General awareness",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
       "bloomReportId": "4917",
       "waterBody": "San Francisco Bay",
       "landmark": "Alameda Point/ Alameda Waterfront Park",
@@ -37113,36 +37068,6 @@
       "detail": ""
     },
     {
-      "bloomReportId": "5189",
-      "waterBody": "Clear Lake",
-      "landmark": "Buckingham Park",
-      "county": "Lake",
-      "latitude": 39.01513,
-      "longitude": -122.74921,
-      "observedAt": "2026-07-06T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-07-06T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
-    },
-    {
-      "bloomReportId": "5201",
-      "waterBody": "highlands water company",
-      "landmark": "clearlake ca",
-      "county": "Lake",
-      "latitude": 39.08672,
-      "longitude": -122.86705,
-      "observedAt": "2026-06-24T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": "2026-07-13T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": ""
-    },
-    {
       "bloomReportId": "5181",
       "waterBody": "Clear Lake",
       "landmark": "Soda Bay",
@@ -37216,6 +37141,36 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+    },
+    {
+      "bloomReportId": "5189",
+      "waterBody": "Clear Lake",
+      "landmark": "Buckingham Park",
+      "county": "Lake",
+      "latitude": 39.01513,
+      "longitude": -122.74921,
+      "observedAt": "2026-07-06T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-06T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+    },
+    {
+      "bloomReportId": "5201",
+      "waterBody": "highlands water company",
+      "landmark": "clearlake ca",
+      "county": "Lake",
+      "latitude": 39.08672,
+      "longitude": -122.86705,
+      "observedAt": "2026-06-24T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-13T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
     },
     {
       "bloomReportId": "4862",
@@ -40848,24 +40803,9 @@
       "detail": "Water testing of samples did not detect presence of harmful algal bloom produced by cyanobacteria."
     },
     {
-      "bloomReportId": "5084",
-      "waterBody": "Harveston Lake",
-      "landmark": "lake-wide",
-      "county": "Riverside",
-      "latitude": 33.53778,
-      "longitude": -117.15718,
-      "observedAt": "2026-05-10T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-05-12T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
-    },
-    {
       "bloomReportId": "5306",
       "waterBody": "Harveston Lake",
-      "landmark": "",
+      "landmark": "lake-wide",
       "county": "",
       "latitude": 33.53809,
       "longitude": -117.15744,
@@ -41493,21 +41433,6 @@
       "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
     {
-      "bloomReportId": "5218",
-      "waterBody": "Trout Creek",
-      "landmark": "Lake Tahoe Community College",
-      "county": "El Dorado",
-      "latitude": 38.925472,
-      "longitude": -119.97433,
-      "observedAt": "2026-07-22T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-07-31T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Re-opened",
-      "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
-    },
-    {
       "bloomReportId": "5258",
       "waterBody": "Trout Creek",
       "landmark": "Behind Meeks Lumber",
@@ -41521,6 +41446,21 @@
       "caseStatus": "Re-opened",
       "caseEnd": null,
       "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+    },
+    {
+      "bloomReportId": "5218",
+      "waterBody": "Trout Creek",
+      "landmark": "Lake Tahoe Community College",
+      "county": "El Dorado",
+      "latitude": 38.925472,
+      "longitude": -119.97433,
+      "observedAt": "2026-07-22T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-31T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Re-opened",
+      "caseEnd": null,
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "4733",
@@ -46975,7 +46915,7 @@
       "latitude": 33.54697,
       "longitude": -117.70533,
       "observedAt": "2026-05-12T00:00:00.000Z",
-      "advisory": "General awareness",
+      "advisory": "None",
       "advisoryStart": "2026-05-19T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -47208,6 +47148,21 @@
       "detail": "Visual observations of suspicious algae reported - Water Boards staff determined that no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae were present."
     },
     {
+      "bloomReportId": "5283",
+      "waterBody": "Lake Tulloch",
+      "landmark": "Poker Flat",
+      "county": "Calaveras",
+      "latitude": 37.904826,
+      "longitude": -120.58924,
+      "observedAt": "2026-08-03T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-08-17T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+    },
+    {
       "bloomReportId": "5287",
       "waterBody": "Lake Tulloch",
       "landmark": "Kiva Swim Area",
@@ -47281,21 +47236,6 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
-    },
-    {
-      "bloomReportId": "5283",
-      "waterBody": "Lake Tulloch",
-      "landmark": "Poker Flat",
-      "county": "Calaveras",
-      "latitude": 37.904826,
-      "longitude": -120.58924,
-      "observedAt": "2026-08-03T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-08-17T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
     {
       "bloomReportId": "5259",
@@ -47973,21 +47913,6 @@
       "detail": "Visual observations of suspicious algae reported - Water Boards staff determined that no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae were present."
     },
     {
-      "bloomReportId": "5205",
-      "waterBody": "Shasta Lake",
-      "landmark": "Silverthorn Resort",
-      "county": "Shasta",
-      "latitude": 40.758106,
-      "longitude": -122.25016,
-      "observedAt": "2026-07-11T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": "2026-07-16T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
-    },
-    {
       "bloomReportId": "5202",
       "waterBody": "Shasta lake",
       "landmark": "Silverthorn resort",
@@ -47997,6 +47922,21 @@
       "observedAt": "2026-07-09T00:00:00.000Z",
       "advisory": "None",
       "advisoryStart": "2026-07-14T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+    },
+    {
+      "bloomReportId": "5205",
+      "waterBody": "Shasta Lake",
+      "landmark": "Silverthorn Resort",
+      "county": "Shasta",
+      "latitude": 40.758106,
+      "longitude": -122.25016,
+      "observedAt": "2026-07-11T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-07-16T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -48108,21 +48048,6 @@
       "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
-      "bloomReportId": "5212",
-      "waterBody": "Hume lake",
-      "landmark": "Sequoia National Forest",
-      "county": "Fresno",
-      "latitude": 36.79117,
-      "longitude": -118.90557,
-      "observedAt": "2026-07-16T00:00:00.000Z",
-      "advisory": "Caution",
-      "advisoryStart": "2026-07-17T00:00:00.000Z",
-      "advisoryEnd": null,
-      "caseStatus": "Open",
-      "caseEnd": null,
-      "detail": "A suspected harmful algal bloom was reported, an investigation is underway and this report will be updated once info is provided by the responding organizations."
-    },
-    {
       "bloomReportId": "5215",
       "waterBody": "Hume Lake",
       "landmark": "In the Hume Lake Ranger District on Sequoia National Forest",
@@ -48136,6 +48061,21 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5212",
+      "waterBody": "Hume lake",
+      "landmark": "Sequoia National Forest",
+      "county": "Fresno",
+      "latitude": 36.79117,
+      "longitude": -118.90557,
+      "observedAt": "2026-07-16T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-07-17T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "A suspected harmful algal bloom was reported, an investigation is underway and this report will be updated once info is provided by the responding organizations."
     },
     {
       "bloomReportId": "5241",
@@ -48664,8 +48604,8 @@
     },
     {
       "bloomReportId": "5284",
-      "waterBody": "Large Pond on property 50871 Road 200, O'Neals, CA 93645",
-      "landmark": "Town of O'Neals",
+      "waterBody": "Private pond",
+      "landmark": "near Town of O'Neals",
       "county": "Madera",
       "latitude": 37.19976,
       "longitude": -119.62434,
@@ -48931,7 +48871,82 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Alert! High concentration of one or more cyanotoxins measured at this site indicating elevated health risk to humans and animals."
+    },
+    {
+      "bloomReportId": "5320",
+      "waterBody": "San Juan Creek",
+      "landmark": "Near horse trail",
+      "county": "Orange",
+      "latitude": 33.5126,
+      "longitude": -117.631,
+      "observedAt": "2026-08-19T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-09-01T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5319",
+      "waterBody": "Lake Merced",
+      "landmark": "South end of lake near Daly City",
+      "county": "San Francisco",
+      "latitude": 37.71013,
+      "longitude": -122.48674,
+      "observedAt": "2026-08-25T00:00:00.000Z",
+      "advisory": "NA - refer to Report Details",
+      "advisoryStart": "2026-09-01T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "This report is under investigation."
+    },
+    {
+      "bloomReportId": "5318",
+      "waterBody": "Beach creek resort apartments pond",
+      "landmark": "12221 Beach Blvd, Garden Grove, CA",
+      "county": "Orange",
+      "latitude": 33.785496,
+      "longitude": -117.99317,
+      "observedAt": "2026-06-01T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Closed",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5281",
+      "waterBody": "Private Pond",
+      "landmark": "near Santa Barbara",
+      "county": "Santa Barbara",
+      "latitude": 34.51088,
+      "longitude": -119.5972,
+      "observedAt": "2026-07-16T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5143",
+      "waterBody": "Private pond",
+      "landmark": "Red Hawk Rd Corona CA",
+      "county": "Riverside",
+      "latitude": 33.746351,
+      "longitude": -117.46392,
+      "observedAt": "2026-06-17T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3674
+  "examined": 3675
 }
