@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T16:50:29.966Z",
+  "generatedAt": "2026-09-08T17:56:29.049Z",
   "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-04.csv",
   "records": [
     {
@@ -45285,7 +45285,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water Boards recommends posting of “algal mats general awareness sign�� for HABs at this site and nearby access points."
+      "detail": "Water Boards recommends posting of “algal mats general awareness sign” for HABs at this site and nearby access points."
     },
     {
       "bloomReportId": "5058",
