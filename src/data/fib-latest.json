@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T17:56:29.049Z",
+  "generatedAt": "2026-09-09T17:51:22.228Z",
   "source": "https://data.ca.gov/dataset/6723ab78-4530-4e97-ba5e-6ffd17a4c139/resource/15a63495-8d9f-4a49-b43a-3092ef3106b9/download/safetoswim_geomeans_2020-present.csv",
   "records": [
     {
@@ -9676,9 +9676,9 @@
       "unit": "MPN/100 mL",
       "result": 1600,
       "thirtyDayGeoMean": 1600,
-      "thirtyDayCount": 1,
+      "thirtyDayCount": 2,
       "sixWeekGeoMean": 1600,
-      "sixWeekCount": 1,
+      "sixWeekCount": 2,
       "dataQuality": "Unknown data quality",
       "dataSource": "CEDEN"
     },
@@ -15355,10 +15355,10 @@
       "analyte": "E. coli",
       "unit": "MPN/100 mL",
       "result": 384,
-      "thirtyDayGeoMean": 143.591,
-      "thirtyDayCount": 3,
-      "sixWeekGeoMean": 143.591,
-      "sixWeekCount": 3,
+      "thirtyDayGeoMean": 544.118,
+      "thirtyDayCount": 2,
+      "sixWeekGeoMean": 544.118,
+      "sixWeekCount": 2,
       "dataQuality": "Unknown data quality",
       "dataSource": "CEDEN"
     },
@@ -23851,10 +23851,10 @@
       "analyte": "E. coli",
       "unit": "MPN/100 mL",
       "result": 3.1,
-      "thirtyDayGeoMean": 4.719,
-      "thirtyDayCount": 4,
-      "sixWeekGeoMean": 6.361,
-      "sixWeekCount": 5,
+      "thirtyDayGeoMean": 6.283,
+      "thirtyDayCount": 3,
+      "sixWeekGeoMean": 8.495,
+      "sixWeekCount": 4,
       "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
@@ -34903,7 +34903,7 @@
       "stationName": "BAY#202.4_SL-Crissy Field, San Francisco",
       "latitude": 37.8063,
       "longitude": -122.451,
-      "sampledAt": "2026-07-27T09:35:00.000Z",
+      "sampledAt": "2026-08-03T09:08:00.000Z",
       "analyte": "Enterococcus",
       "unit": "MPN/100 mL",
       "result": 10,
@@ -34919,7 +34919,7 @@
       "stationName": "BAY#202.5_SL-Crissy Field, San Francisco",
       "latitude": 37.8072,
       "longitude": -122.469,
-      "sampledAt": "2026-07-27T09:55:00.000Z",
+      "sampledAt": "2026-08-03T08:55:00.000Z",
       "analyte": "Enterococcus",
       "unit": "MPN/100 mL",
       "result": 10,
@@ -34935,14 +34935,14 @@
       "stationName": "BAY#210.1_SL-Aquatic Park, San Francisco",
       "latitude": 37.809,
       "longitude": -122.421,
-      "sampledAt": "2026-07-27T10:20:00.000Z",
+      "sampledAt": "2026-08-03T10:00:00.000Z",
       "analyte": "Enterococcus",
       "unit": "MPN/100 mL",
       "result": 10,
       "thirtyDayGeoMean": 10,
       "thirtyDayCount": 5,
-      "sixWeekGeoMean": 12.978,
-      "sixWeekCount": 7,
+      "sixWeekGeoMean": 10,
+      "sixWeekCount": 6,
       "dataQuality": "Unknown data quality",
       "dataSource": "BeachWatch"
     },
@@ -34951,14 +34951,14 @@
       "stationName": "BAY#211_SL-Aquatic Park, San Francisco",
       "latitude": 37.8069,
       "longitude": -122.423,
-      "sampledAt": "2026-07-27T10:25:00.000Z",
+      "sampledAt": "2026-08-03T09:54:00.000Z",
       "analyte": "Enterococcus",
       "unit": "MPN/100 mL",
       "result": 10,
       "thirtyDayGeoMean": 12.457,
       "thirtyDayCount": 5,
-      "sixWeekGeoMean": 12.917,
-      "sixWeekCount": 7,
+      "sixWeekGeoMean": 12.009,
+      "sixWeekCount": 6,
       "dataQuality": "Unknown data quality",
       "dataSource": "BeachWatch"
     },
@@ -34967,14 +34967,14 @@
       "stationName": "BAY#220_SL",
       "latitude": 37.7719,
       "longitude": -122.3967,
-      "sampledAt": "2026-07-27T11:00:00.000Z",
+      "sampledAt": "2026-08-03T10:36:00.000Z",
       "analyte": "Enterococcus",
       "unit": "MPN/100 mL",
       "result": 10,
       "thirtyDayGeoMean": 10,
       "thirtyDayCount": 5,
       "sixWeekGeoMean": 10,
-      "sixWeekCount": 7,
+      "sixWeekCount": 6,
       "dataQuality": "Unknown data quality",
       "dataSource": "BeachWatch"
     },
@@ -34983,14 +34983,14 @@
       "stationName": "BAY#230_SL",
       "latitude": 37.763431,
       "longitude": -122.386861,
-      "sampledAt": "2026-07-27T11:10:00.000Z",
+      "sampledAt": "2026-08-03T10:55:00.000Z",
       "analyte": "Enterococcus",
       "unit": "MPN/100 mL",
-      "result": 10,
-      "thirtyDayGeoMean": 11.487,
+      "result": 20,
+      "thirtyDayGeoMean": 13.195,
       "thirtyDayCount": 5,
-      "sixWeekGeoMean": 11.041,
-      "sixWeekCount": 7,
+      "sixWeekGeoMean": 12.599,
+      "sixWeekCount": 6,
       "dataQuality": "Unknown data quality",
       "dataSource": "BeachWatch"
     },
@@ -36751,7 +36751,7 @@
       "thirtyDayCount": 5,
       "sixWeekGeoMean": 2.119,
       "sixWeekCount": 7,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -36783,7 +36783,7 @@
       "thirtyDayCount": 5,
       "sixWeekGeoMean": 2.34,
       "sixWeekCount": 7,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -36863,7 +36863,7 @@
       "thirtyDayCount": 5,
       "sixWeekGeoMean": 2,
       "sixWeekCount": 7,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -36907,10 +36907,10 @@
       "analyte": "Enterococcus",
       "unit": "CFU/100 mL",
       "result": 4,
-      "thirtyDayGeoMean": 2.828,
-      "thirtyDayCount": 4,
-      "sixWeekGeoMean": 2.828,
-      "sixWeekCount": 4,
+      "thirtyDayGeoMean": 3.175,
+      "thirtyDayCount": 3,
+      "sixWeekGeoMean": 2.639,
+      "sixWeekCount": 5,
       "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
@@ -37071,7 +37071,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 7,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37087,7 +37087,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 13,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37215,7 +37215,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 6,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37279,7 +37279,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 38,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37295,7 +37295,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 102.667,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37311,7 +37311,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 245.333,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37327,7 +37327,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 84,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37343,7 +37343,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 46,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37375,7 +37375,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 7,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37407,7 +37407,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 2,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37423,7 +37423,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 4,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37439,7 +37439,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 2,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37455,7 +37455,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 9,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37519,7 +37519,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 196,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37535,7 +37535,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 74,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37567,7 +37567,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 39,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37679,7 +37679,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 34,
       "sixWeekCount": 1,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37743,7 +37743,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 3,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37791,7 +37791,7 @@
       "thirtyDayCount": 5,
       "sixWeekGeoMean": 10.795,
       "sixWeekCount": 7,
-      "dataQuality": "Some review needed",
+      "dataQuality": "Passed",
       "dataSource": "CEDEN"
     },
     {
@@ -37855,7 +37855,7 @@
       "thirtyDayCount": 1,
       "sixWeekGeoMean": 3,
       "sixWeekCount": 1,
-      "dataQuality": "Passed",
+      "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
     {
@@ -37895,7 +37895,7 @@
       "stationName": "City of San Diego Station I36",
       "latitude": 32.6391667,
       "longitude": -117.154,
-      "sampledAt": "2024-11-07T09:35:00.000Z",
+      "sampledAt": "2024-08-08T10:48:00.000Z",
       "analyte": "Enterococcus",
       "unit": "CFU/100 mL",
       "result": 2,
@@ -38108,9 +38108,9 @@
       "unit": "CFU/100 mL",
       "result": 2,
       "thirtyDayGeoMean": 2,
-      "thirtyDayCount": 4,
-      "sixWeekGeoMean": 4.442,
-      "sixWeekCount": 6,
+      "thirtyDayCount": 3,
+      "sixWeekGeoMean": 5.21,
+      "sixWeekCount": 5,
       "dataQuality": "Some review needed",
       "dataSource": "CEDEN"
     },
@@ -45721,7 +45721,7 @@
       "longitude": -117.640179,
       "sampledAt": "2022-09-06T10:28:00.000Z",
       "analyte": "Enterococcus",
-      "unit": "MPN/100 mL",
+      "unit": "CFU/100 mL",
       "result": 1700,
       "thirtyDayGeoMean": 1700,
       "thirtyDayCount": 1,
@@ -48751,8 +48751,8 @@
       "thirtyDayCount": 5,
       "sixWeekGeoMean": 9.17,
       "sixWeekCount": 6,
-      "dataQuality": "Unknown data quality",
-      "dataSource": "BeachWatch"
+      "dataQuality": "Passed",
+      "dataSource": "CEDEN"
     },
     {
       "stationCode": "Main-A",
@@ -49168,22 +49168,6 @@
       "sixWeekGeoMean": 78000,
       "sixWeekCount": 1,
       "dataQuality": "Passed",
-      "dataSource": "CEDEN"
-    },
-    {
-      "stationCode": "NC_32",
-      "stationName": "NC_32_Sweetwater River",
-      "latitude": 33,
-      "longitude": -117,
-      "sampledAt": "2023-06-06T08:50:00.000Z",
-      "analyte": "Enterococcus",
-      "unit": "MPN/100 mL",
-      "result": 20050,
-      "thirtyDayGeoMean": 20050,
-      "thirtyDayCount": 1,
-      "sixWeekGeoMean": 20050,
-      "sixWeekCount": 1,
-      "dataQuality": "Unknown data quality",
       "dataSource": "CEDEN"
     },
     {
@@ -50539,10 +50523,10 @@
       "analyte": "Enterococcus",
       "unit": "MPN/100 mL",
       "result": 11000,
-      "thirtyDayGeoMean": 3316.625,
-      "thirtyDayCount": 2,
-      "sixWeekGeoMean": 3316.625,
-      "sixWeekCount": 2,
+      "thirtyDayGeoMean": 2802.039,
+      "thirtyDayCount": 3,
+      "sixWeekGeoMean": 2802.039,
+      "sixWeekCount": 3,
       "dataQuality": "Unknown data quality",
       "dataSource": "CEDEN"
     },
@@ -58339,5 +58323,5 @@
       "dataSource": "CEDEN"
     }
   ],
-  "examined": 638142
+  "examined": 638145
 }
