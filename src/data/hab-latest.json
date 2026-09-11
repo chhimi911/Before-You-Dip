@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T17:43:36.333Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-09.csv",
+  "generatedAt": "2026-09-11T17:46:05.435Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-10.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -15370,12 +15370,12 @@
       "latitude": 41.020169,
       "longitude": -123.63518,
       "observedAt": "2023-01-23T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Algal mat alert sign",
       "advisoryStart": "2026-06-08T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "4009",
@@ -23580,7 +23580,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "3276",
@@ -29620,7 +29620,7 @@
       "latitude": 41.633057,
       "longitude": -123.08286,
       "observedAt": "2022-08-08T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Algal mat alert sign",
       "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -35455,12 +35455,12 @@
       "latitude": 40.198405,
       "longitude": -123.77461,
       "observedAt": "2023-08-07T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": "2025-08-26T00:00:00.000Z",
-      "advisoryEnd": "2026-01-04T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-09-10T00:00:00.000Z",
+      "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water Boards recommends removing the posted advisory at this site."
+      "detail": "Observations at this site include confirmation of harmful algal bloom that  forms potential toxic algal mats that grow attached to cobble, sand, and plants on the bottom of the waterway. The water can appear clear when algal mats are attached to the bottom. These mats can dislodge and float downstream or strand on the shoreline, children and dogs should avoid touching mat material.  Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
     },
     {
       "bloomReportId": "4333",
@@ -39580,12 +39580,12 @@
       "latitude": 40.01963,
       "longitude": -123.78942,
       "observedAt": "2024-07-24T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": "2025-08-08T00:00:00.000Z",
-      "advisoryEnd": "2026-01-04T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-09-10T00:00:00.000Z",
+      "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water Boards recommends removing the posted advisory at this site."
+      "detail": "Observations at this site include confirmation of harmful algal bloom that  forms potential toxic algal mats that grow attached to cobble, sand, and plants on the bottom of the waterway. The water can appear clear when algal mats are attached to the bottom. These mats can dislodge and float downstream or strand on the shoreline, children and dogs should avoid touching mat material.  Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
     },
     {
       "bloomReportId": "4637",
@@ -41486,7 +41486,7 @@
       "longitude": -121.77068,
       "observedAt": "2025-05-06T00:00:00.000Z",
       "advisory": "Caution",
-      "advisoryStart": "2026-08-05T00:00:00.000Z",
+      "advisoryStart": "2026-08-12T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -42235,8 +42235,8 @@
       "latitude": 36.9371968,
       "longitude": -121.73624,
       "observedAt": "2025-05-28T00:00:00.000Z",
-      "advisory": "Danger",
-      "advisoryStart": "2026-08-05T00:00:00.000Z",
+      "advisory": "Warning",
+      "advisoryStart": "2026-08-12T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
@@ -48520,7 +48520,7 @@
       "latitude": 41.524921,
       "longitude": -122.96831,
       "observedAt": "2026-08-03T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Algal mat alert sign",
       "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -48955,12 +48955,12 @@
       "latitude": 39.14676,
       "longitude": -121.58784,
       "observedAt": "2026-08-30T00:00:00.000Z",
-      "advisory": "NA - refer to Report Details",
+      "advisory": "Caution",
       "advisoryStart": "2026-09-04T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
     },
     {
       "bloomReportId": "5329",
@@ -49030,12 +49030,12 @@
       "latitude": 40.277688,
       "longitude": -121.11707,
       "observedAt": "2026-09-08T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "Caution",
+      "advisoryStart": "2026-09-10T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Closed",
       "caseEnd": null,
-      "detail": ""
+      "detail": "This report is under investigation."
     },
     {
       "bloomReportId": "5334",
@@ -49081,7 +49081,52 @@
       "caseStatus": "Ongoing",
       "caseEnd": null,
       "detail": "Alert! High concentration of one or more cyanotoxins measured at this site indicating elevated health risk to humans and animals."
+    },
+    {
+      "bloomReportId": "5337",
+      "waterBody": "Lake Oroville Middle Fork",
+      "landmark": "upstream of Bean Creek",
+      "county": "Butte",
+      "latitude": 39.6089024,
+      "longitude": -121.32588,
+      "observedAt": "2026-09-09T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-09-10T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Ongoing",
+      "caseEnd": null,
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+    },
+    {
+      "bloomReportId": "5338",
+      "waterBody": "Strap Ravine",
+      "landmark": "Deer Valley Apartments",
+      "county": "Placer",
+      "latitude": 38.7394,
+      "longitude": -121.24028,
+      "observedAt": "2026-09-10T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5339",
+      "waterBody": "Bolsa Chico Basin State Marin",
+      "landmark": "Bolsa Chico Ecological Reserve",
+      "county": "Orange",
+      "latitude": 33.7035789,
+      "longitude": -118.05286,
+      "observedAt": "2026-09-07T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3684
+  "examined": 3687
 }
