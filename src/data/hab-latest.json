@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T17:46:05.435Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-10.csv",
+  "generatedAt": "2026-09-12T17:12:55.093Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-11.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -38351,7 +38351,7 @@
       "longitude": -121.69367,
       "observedAt": "2024-06-25T00:00:00.000Z",
       "advisory": "Caution",
-      "advisoryStart": "2026-09-08T00:00:00.000Z",
+      "advisoryStart": "2026-09-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
@@ -42235,8 +42235,8 @@
       "latitude": 36.9371968,
       "longitude": -121.73624,
       "observedAt": "2025-05-28T00:00:00.000Z",
-      "advisory": "Warning",
-      "advisoryStart": "2026-08-12T00:00:00.000Z",
+      "advisory": "Danger",
+      "advisoryStart": "2026-09-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
@@ -49126,7 +49126,22 @@
       "caseStatus": "",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5340",
+      "waterBody": "Martis Creek Reservoir (Lake)",
+      "landmark": "Tahoe-Truckee Airport",
+      "county": "Nevada",
+      "latitude": 39.31985,
+      "longitude": -120.1134,
+      "observedAt": "2026-09-08T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3687
+  "examined": 3688
 }
