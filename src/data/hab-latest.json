@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T19:24:44.846Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-11.csv",
+  "generatedAt": "2026-09-15T18:14:05.465Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-14.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -32265,7 +32265,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "No bloom was observed at this location from the shoreline or boat. Therefore, no water testing to measure for bloom associated toxins was conducted. Check upstream lakes or channels for presence of a bloom since bloom material and toxins can be transported downstream.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
     },
     {
       "bloomReportId": "4019",
@@ -36505,12 +36505,12 @@
       "latitude": 36.460613,
       "longitude": -118.87932,
       "observedAt": "2023-09-28T00:00:00.000Z",
-      "advisory": "Algal mat general awareness sign",
+      "advisory": "Algal mat alert sign",
       "advisoryStart": "2023-09-28T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Observations at this site include confirmation of harmful algal bloom that  forms potential toxic algal mats that grow attached to cobble, sand, and plants on the bottom of the waterway. The water can appear clear when algal mats are attached to the bottom. These mats can dislodge and float downstream or strand on the shoreline, children and dogs should avoid touching mat material."
     },
     {
       "bloomReportId": "4407",
@@ -45580,12 +45580,12 @@
       "latitude": 32.846462,
       "longitude": -116.97724,
       "observedAt": "2026-05-04T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "None",
       "advisoryStart": "2026-05-04T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+      "detail": "Observations confirmed that no bloom is present at this location, causes of blooms include nuisance algae or harmful algal bloom species. This area may be impacted by excessive growth of aquatic weeds."
     },
     {
       "bloomReportId": "5078",
@@ -49100,17 +49100,17 @@
     {
       "bloomReportId": "5338",
       "waterBody": "Strap Ravine",
-      "landmark": "Deer Valley Apartments",
+      "landmark": "~1.3 mi upstream of confluence with Upper Linda Creek, near Deer Valley Apartments",
       "county": "Placer",
       "latitude": 38.7394,
       "longitude": -121.24028,
       "observedAt": "2026-09-10T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "NA - refer to Report Details",
+      "advisoryStart": "2026-09-14T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Visual observations of suspicious algae reported - Water Boards staff determined that no harmful algal bloom produced by cyanobacteria was present. Other types of nuisance algae were present."
     },
     {
       "bloomReportId": "5339",
@@ -49141,7 +49141,67 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5341",
+      "waterBody": "Russian River",
+      "landmark": "Vacation Beach",
+      "county": "Sonoma",
+      "latitude": 38.484712,
+      "longitude": -123.01175,
+      "observedAt": "2026-08-22T00:00:00.000Z",
+      "advisory": "Algal mat alert sign",
+      "advisoryStart": "2026-09-14T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "This report is under investigation."
+    },
+    {
+      "bloomReportId": "5342",
+      "waterBody": "Lake Oroville",
+      "landmark": "Loafer Creek Campground — Site 65 (coordinates : 39.6152051,-121.4810537) near boat dock and waterfall",
+      "county": "Butte",
+      "latitude": 39.6152051,
+      "longitude": -121.48105,
+      "observedAt": "2026-09-05T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-09-14T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+    },
+    {
+      "bloomReportId": "5343",
+      "waterBody": "Eel River",
+      "landmark": "Rio Dell (more specific location pending follow up with RP)",
+      "county": "Humboldt",
+      "latitude": 40.495,
+      "longitude": -124.093,
+      "observedAt": "2026-09-07T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5344",
+      "waterBody": "Lake Temescal",
+      "landmark": "Rio Dell (more specific location pending follow up with RP)",
+      "county": "Alameda",
+      "latitude": 37.8465,
+      "longitude": -122.23,
+      "observedAt": "2026-09-07T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3688
+  "examined": 3692
 }
