@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T18:12:51.932Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-14.csv",
+  "generatedAt": "2026-09-17T18:16:41.303Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-16.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -15205,7 +15205,7 @@
       "latitude": 38.471794,
       "longitude": -123.02761,
       "observedAt": "2023-01-23T00:00:00.000Z",
-      "advisory": "Algal mat alert sign",
+      "advisory": "None",
       "advisoryStart": "2026-09-08T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -15375,7 +15375,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4009",
@@ -46915,7 +46915,7 @@
       "latitude": 38.47272,
       "longitude": -123.02197,
       "observedAt": "2026-07-01T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Algal mat alert sign",
       "advisoryStart": "2026-07-01T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -49020,7 +49020,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "A suspected harmful algal bloom was reported, an investigation is underway and this report will be updated once info is provided by the responding organizations.  Observations at this site include confirmation of harmful algal bloom that  forms potential toxic algal mats that grow attached to cobble, sand, and plants on the bottom of the waterway. The water can appear clear when algal mats are attached to the bottom. These mats can dislodge and float downstream or strand on the shoreline, children and dogs should avoid touching mat material.  Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made.  Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins.  Observations at this site include confirmation of harmful algal bloom that  forms potential toxic algal mats that grow attached to cobble, sand, and plants on the bottom of the waterway. The water can appear clear when algal mats are attached to the bottom. These mats can dislodge and float downstream or strand on the shoreline, children and dogs should avoid touching mat material.  Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
     {
       "bloomReportId": "5333",
@@ -49181,7 +49181,7 @@
       "longitude": -124.093,
       "observedAt": "2026-09-07T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": null,
+      "advisoryStart": "2026-09-14T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
@@ -49196,12 +49196,27 @@
       "longitude": -122.23,
       "observedAt": "2026-09-07T00:00:00.000Z",
       "advisory": "Caution",
-      "advisoryStart": null,
+      "advisoryStart": "2026-09-07T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "This report is under investigation."
+    },
+    {
+      "bloomReportId": "5345",
+      "waterBody": "Lake Zyac",
+      "landmark": "private HOA lake near Woodlake",
+      "county": "Nevada",
+      "latitude": 39.13569,
+      "longitude": -121.13335,
+      "observedAt": "2026-09-04T00:00:00.000Z",
+      "advisory": "Caution",
+      "advisoryStart": "2026-09-15T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     }
   ],
-  "examined": 3692
+  "examined": 3693
 }
