@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T19:30:54.697Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-18.csv",
+  "generatedAt": "2026-09-22T18:07:28.852Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-21.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -49411,7 +49411,37 @@
       "caseStatus": "",
       "caseEnd": null,
       "detail": ""
+    },
+    {
+      "bloomReportId": "5359",
+      "waterBody": "Pacific Ocean",
+      "landmark": "Hidden Beach",
+      "county": "Santa Cruz",
+      "latitude": 36.96401,
+      "longitude": -121.89991,
+      "observedAt": "2026-09-18T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
+    },
+    {
+      "bloomReportId": "5360",
+      "waterBody": "Lake of the Pines",
+      "landmark": "lake-wide",
+      "county": "Nevada",
+      "latitude": 39.03667,
+      "longitude": -121.06268,
+      "observedAt": "2026-09-18T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3706
+  "examined": 3708
 }
