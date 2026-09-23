@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T18:07:28.852Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-21.csv",
+  "generatedAt": "2026-09-23T18:25:14.942Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-22.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -25785,7 +25785,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "3453",
@@ -33340,12 +33340,12 @@
       "latitude": 39.53,
       "longitude": -121.4494,
       "observedAt": "2023-05-22T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2023-05-22T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4134",
@@ -42445,12 +42445,12 @@
       "latitude": 37.955923,
       "longitude": -121.34721,
       "observedAt": "2025-06-28T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2025-06-05T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information.  Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "4849",
@@ -49435,13 +49435,28 @@
       "latitude": 39.03667,
       "longitude": -121.06268,
       "observedAt": "2026-09-18T00:00:00.000Z",
-      "advisory": "None",
-      "advisoryStart": null,
+      "advisory": "Caution",
+      "advisoryStart": "2026-09-22T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "",
+      "caseStatus": "Open",
       "caseEnd": null,
-      "detail": ""
+      "detail": "Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
+    },
+    {
+      "bloomReportId": "5361",
+      "waterBody": "New Bullards Bar Reservoir",
+      "landmark": "New Bullards Bar Dam",
+      "county": "Yuba",
+      "latitude": 39.42645,
+      "longitude": -121.13173,
+      "observedAt": "2026-09-16T00:00:00.000Z",
+      "advisory": "NA - refer to Report Details",
+      "advisoryStart": "2026-09-22T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "This report is under investigation."
     }
   ],
-  "examined": 3708
+  "examined": 3709
 }
