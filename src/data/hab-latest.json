@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T18:26:46.123Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-23.csv",
+  "generatedAt": "2026-09-25T18:39:22.299Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-24.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -34000,7 +34000,7 @@
       "latitude": 41.184586,
       "longitude": -123.70616,
       "observedAt": "2023-06-21T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "NA - refer to Report Details",
       "advisoryStart": "2026-08-13T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -35756,11 +35756,11 @@
       "longitude": -123.7261,
       "observedAt": "2023-08-29T00:00:00.000Z",
       "advisory": "None",
-      "advisoryStart": "2024-08-20T00:00:00.000Z",
+      "advisoryStart": "2026-09-24T00:00:00.000Z",
       "advisoryEnd": null,
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
-      "detail": "Water Boards recommends removing the posted advisory at this site."
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
     },
     {
       "bloomReportId": "4355",
@@ -42490,7 +42490,7 @@
       "latitude": 41.88872,
       "longitude": -121.53925,
       "observedAt": "2025-05-27T00:00:00.000Z",
-      "advisory": "Warning",
+      "advisory": "Danger",
       "advisoryStart": "2026-07-14T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -44428,8 +44428,8 @@
       "advisory": "None",
       "advisoryStart": "2025-09-19T00:00:00.000Z",
       "advisoryEnd": "2026-01-04T00:00:00.000Z",
-      "caseStatus": "Closed",
-      "caseEnd": "2026-01-04T00:00:00.000Z",
+      "caseStatus": "Open",
+      "caseEnd": null,
       "detail": "Water Boards recommends removing the posted advisory at this site."
     },
     {
@@ -48960,7 +48960,7 @@
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+      "detail": "Advisory applies to the full extent of the lake or reservoir (lake-wide advisory) and is not to limited the location symbolized by this report.  Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Suspected illness was reported and is under investigation by the Interagency HAB-related Illness Workgroup, no determination has been made."
     },
     {
       "bloomReportId": "5329",
@@ -49095,7 +49095,7 @@
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
       "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level."
+      "detail": "Updates to this report are provided by a routine water monitoring program conducting site visits at this waterway, refer to Organization field above for more information."
     },
     {
       "bloomReportId": "5338",
@@ -49456,7 +49456,22 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "This report is under investigation."
+    },
+    {
+      "bloomReportId": "5362",
+      "waterBody": "Lake Ellis",
+      "landmark": "",
+      "county": "Yuba",
+      "latitude": 39.1495,
+      "longitude": -121.58841,
+      "observedAt": "2026-09-23T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": "2026-09-24T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3709
+  "examined": 3710
 }
