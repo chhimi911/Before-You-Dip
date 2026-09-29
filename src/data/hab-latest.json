@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T20:34:51.164Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-25.csv",
+  "generatedAt": "2026-09-29T19:26:45.901Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-28.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -49516,7 +49516,37 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+    },
+    {
+      "bloomReportId": "5366",
+      "waterBody": "John Anson Ford Park Lake",
+      "landmark": "John Anson Ford Park, Bell Gardens, CA",
+      "county": "Los Angeles",
+      "latitude": 33.95789,
+      "longitude": -118.15148,
+      "observedAt": "2026-09-16T00:00:00.000Z",
+      "advisory": "Visual observation",
+      "advisoryStart": "2026-09-28T00:00:00.000Z",
+      "advisoryEnd": null,
+      "caseStatus": "Open",
+      "caseEnd": null,
+      "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
+    },
+    {
+      "bloomReportId": "5368",
+      "waterBody": "La Mirada Lake",
+      "landmark": "La Mirada Community Regional Park",
+      "county": "Los Angeles",
+      "latitude": 33.90326,
+      "longitude": -118.00734,
+      "observedAt": "2026-09-18T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3713
+  "examined": 3715
 }
