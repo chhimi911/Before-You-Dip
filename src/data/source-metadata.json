@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T19:26:45.901Z",
+  "generatedAt": "2026-09-30T19:23:32.139Z",
   "packages": {
     "fib": {
       "id": "surface-water-fecal-indicator-bacteria-results",
-      "modified": "2026-09-28T17:00:27.004105",
+      "modified": "2026-09-29T20:44:51.557207",
       "resource": {
         "cache_last_updated": null,
         "cache_url": null,
@@ -17,8 +17,8 @@
         "id": "15a63495-8d9f-4a49-b43a-3092ef3106b9",
         "ignore_hash": false,
         "is_data_dict_populated": true,
-        "last_modified": "2026-09-28T17:03:31.042582",
-        "metadata_modified": "2026-09-28T17:00:27.011574",
+        "last_modified": "2026-09-29T20:49:33.925101",
+        "metadata_modified": "2026-09-29T20:44:51.607810",
         "mimetype": null,
         "mimetype_inner": null,
         "name": "Fecal Indicator Bacteria Monitoring Results - 2020 to present",
@@ -30,14 +30,14 @@
         "set_url_type": false,
         "size": 423639715,
         "state": "active",
-        "task_created": "2026-09-28 17:03:31.069965",
+        "task_created": "2026-09-29 20:49:33.954149",
         "url": "https://data.ca.gov/dataset/6723ab78-4530-4e97-ba5e-6ffd17a4c139/resource/15a63495-8d9f-4a49-b43a-3092ef3106b9/download/safetoswim_geomeans_2020-present.csv",
         "url_type": "upload"
       }
     },
     "hab": {
       "id": "surface-water-freshwater-harmful-algal-blooms",
-      "modified": "2026-09-29T01:13:39.446349",
+      "modified": "2026-09-30T01:14:46.291552",
       "resource": {
         "cache_last_updated": null,
         "cache_url": null,
@@ -47,25 +47,25 @@
         "datastore_contains_all_records_of_source_file": true,
         "description": "Includes information from individual reports submitted to the agency. Reports include suspected harmful algal blooms and are reviewed by technical staff to determine if an algal bloom is present. The report includes information describing the location, any observations of the area include water surface characteristics, photos, and any known responsible organizations in the area. Technical staff can add additional waterbody information. ",
         "format": "CSV",
-        "hash": "5663e67036cf0461b603fc2f6eadda3e",
+        "hash": "0ce67b5dfd85b42bb5f7464587481319",
         "id": "c6a36b91-ad38-4611-8750-87ee99e497dd",
         "ignore_hash": false,
         "is_data_dict_populated": true,
-        "last_modified": "2026-09-29T01:07:54.710348",
-        "metadata_modified": "2026-09-29T01:09:35.856947",
+        "last_modified": "2026-09-30T01:12:52.268346",
+        "metadata_modified": "2026-09-30T01:14:11.214725",
         "mimetype": null,
         "mimetype_inner": null,
         "name": "FHABS BLOOM REPORTS",
-        "original_url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-28.csv",
+        "original_url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-29.csv",
         "package_id": "ab672540-aecd-42f1-9b05-9aad326f97ec",
         "position": 2,
         "resource_id": "c6a36b91-ad38-4611-8750-87ee99e497dd",
         "resource_type": null,
         "set_url_type": false,
-        "size": 2446217,
+        "size": 2446742,
         "state": "active",
-        "task_created": "2026-09-29 01:07:54.738675",
-        "url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-28.csv",
+        "task_created": "2026-09-30 01:13:09.121653",
+        "url": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-29.csv",
         "url_type": "upload"
       }
     }
