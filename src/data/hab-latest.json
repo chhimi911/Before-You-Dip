@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T19:23:32.139Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-29.csv",
+  "generatedAt": "2026-10-01T19:33:47.933Z",
+  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-09-30.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -25225,7 +25225,7 @@
       "latitude": 34.51889,
       "longitude": -118.6,
       "observedAt": "2022-05-16T00:00:00.000Z",
-      "advisory": "None",
+      "advisory": "Caution",
       "advisoryStart": "2022-05-26T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Ongoing",
@@ -33640,7 +33640,7 @@
       "latitude": 37.583328,
       "longitude": -118.73214,
       "observedAt": "2023-06-11T00:00:00.000Z",
-      "advisory": "Caution",
+      "advisory": "Danger",
       "advisoryStart": "2023-06-11T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
@@ -49546,7 +49546,22 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Visual observation of harmful algal bloom from shoreline or boat. Water testing was not conducted to measure toxicity of bloom according to statewide guidelines. Contact the water or land manager listed above to request water testing due to the confirmed visible bloom."
+    },
+    {
+      "bloomReportId": "5369",
+      "waterBody": "Stafford Lake",
+      "landmark": "",
+      "county": "Marin",
+      "latitude": 38.11561,
+      "longitude": -122.64804,
+      "observedAt": "2026-09-30T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3715
+  "examined": 3716
 }
