@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T21:30:23.901Z",
-  "source": "https://data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-10-02.csv",
+  "generatedAt": "2026-10-07T20:00:25.340Z",
+  "source": "https://publish.data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-10-06.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -49593,5 +49593,5 @@
       "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     }
   ],
-  "examined": 3718
+  "examined": 3720
 }
