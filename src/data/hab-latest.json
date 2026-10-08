@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T20:00:25.340Z",
-  "source": "https://publish.data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-10-06.csv",
+  "generatedAt": "2026-10-08T19:58:28.192Z",
+  "source": "https://publish.data.ca.gov/dataset/ab672540-aecd-42f1-9b05-9aad326f97ec/resource/c6a36b91-ad38-4611-8750-87ee99e497dd/download/bloom-report_2026-10-07.csv",
   "records": [
     {
       "bloomReportId": "1414",
@@ -24070,12 +24070,12 @@
       "latitude": 40.563557,
       "longitude": -120.83198,
       "observedAt": "2023-06-20T00:00:00.000Z",
-      "advisory": "Visual observation",
+      "advisory": "Caution",
       "advisoryStart": "2023-06-19T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "4173",
@@ -38425,12 +38425,12 @@
       "latitude": 39.236045,
       "longitude": -120.02571,
       "observedAt": "2024-06-26T00:00:00.000Z",
-      "advisory": "Visual observation",
+      "advisory": "Caution",
       "advisoryStart": "2024-06-26T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "“General awareness sign” for HABs was posted at this site and nearby access points.  Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "4551",
@@ -39265,12 +39265,12 @@
       "latitude": 38.857597,
       "longitude": -120.02557,
       "observedAt": "2024-07-10T00:00:00.000Z",
-      "advisory": "Visual observation",
+      "advisory": "None",
       "advisoryStart": "2024-07-18T00:00:00.000Z",
       "advisoryEnd": null,
       "caseStatus": "Open",
       "caseEnd": null,
-      "detail": "Advisory is based on visual monitoring for indicators of harmful algal bloom and trigger public health posting of “caution” advisory level.    Water testing of samples resulted in no exceedance of an advisory trigger threshold."
+      "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
     },
     {
       "bloomReportId": "4614",
@@ -49591,7 +49591,22 @@
       "caseStatus": "Open",
       "caseEnd": null,
       "detail": "Advisory based on presence of harmful algal bloom and water testing that detected cyanotoxins."
+    },
+    {
+      "bloomReportId": "5375",
+      "waterBody": "Spring Lake",
+      "landmark": "East of Santa Rosa",
+      "county": "Sonoma",
+      "latitude": 38.454687,
+      "longitude": -122.65238,
+      "observedAt": "2026-10-03T00:00:00.000Z",
+      "advisory": "None",
+      "advisoryStart": null,
+      "advisoryEnd": null,
+      "caseStatus": "",
+      "caseEnd": null,
+      "detail": ""
     }
   ],
-  "examined": 3720
+  "examined": 3721
 }
